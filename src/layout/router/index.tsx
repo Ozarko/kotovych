@@ -27,4 +27,6 @@ export const routersSettings = [
   },
 ];
 
-export const routers = createBrowserRouter(routersSettings);
+export const routers = createBrowserRouter(routersSettings, {
+  basename: "/",
+});
