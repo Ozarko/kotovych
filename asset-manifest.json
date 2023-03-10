@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kotovich/static/css/main.9678a8ca.css",
-    "main.js": "/kotovich/static/js/main.74d64db3.js",
-    "static/media/London.mp4": "/kotovich/static/media/London.b6576bc05917b404cc85.mp4",
-    "static/media/MacPawFixel-VF.ttf": "/kotovich/static/media/MacPawFixel-VF.6264c98396cd6cd78380.ttf",
-    "index.html": "/kotovich/index.html",
-    "main.9678a8ca.css.map": "/kotovich/static/css/main.9678a8ca.css.map",
-    "main.74d64db3.js.map": "/kotovich/static/js/main.74d64db3.js.map"
+    "main.css": "/kotovych/static/css/main.c5b12509.css",
+    "main.js": "/kotovych/static/js/main.6702b82e.js",
+    "static/media/London.mp4": "/kotovych/static/media/London.b6576bc05917b404cc85.mp4",
+    "static/media/MacPawFixel-VF.ttf": "/kotovych/static/media/MacPawFixel-VF.6264c98396cd6cd78380.ttf",
+    "index.html": "/kotovych/index.html",
+    "main.c5b12509.css.map": "/kotovych/static/css/main.c5b12509.css.map",
+    "main.6702b82e.js.map": "/kotovych/static/js/main.6702b82e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9678a8ca.css",
-    "static/js/main.74d64db3.js"
+    "static/css/main.c5b12509.css",
+    "static/js/main.6702b82e.js"
   ]
 }
