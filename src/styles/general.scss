@@ -1,0 +1,122 @@
+@use "./colors.scss" as colors;
+@use "./variables.scss" as variables;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000814;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to right,
+    colors.$aquamarine,
+    colors.$mediumpurple
+  );
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to right,
+    colors.$aquamarine,
+    colors.$mediumpurple
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MacPawFixel";
+  z-index: 2;
+}
+
+html {
+  font-size: 10px;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: colors.$main-dark;
+}
+
+section,
+nav,
+main,
+footer {
+  position: relative;
+  padding: 2.5rem 5rem;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  flex: 1;
+  padding-top: 8rem;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.link-hover {
+  &:hover::before,
+  &.active::before {
+    width: 100%;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    width: 0;
+    height: 0.1rem;
+    background-color: colors.$main-white;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width: variables.$bp-large) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: variables.$bp-medium) {
+  html {
+    font-size: 9px;
+  }
+  section,
+  nav,
+  main,
+  footer {
+    padding: 1.5rem 3rem;
+  }
+}
+
+@media screen and (max-width: variables.$bp-small) {
+  html {
+    font-size: 8px;
+  }
+}

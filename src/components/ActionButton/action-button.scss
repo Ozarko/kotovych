@@ -1,0 +1,45 @@
+@use "../../styles/colors.scss" as colors;
+
+.action-button {
+  padding: 1.5rem 3rem;
+  width: 100%;
+  height: 100%;
+  color: colors.$main-white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20%;
+  /* Border animation */
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid colors.$main-white;
+    transform: scaleX(0);
+    transition: transform 1s ease;
+  }
+  &::before {
+    transform-origin: left;
+  }
+  &::after {
+    transform-origin: right;
+  }
+
+  &:hover {
+    color: colors.$main-white;
+    &::before {
+      transform: scaleX(1);
+    }
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+}
