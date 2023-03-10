@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1243be1d.css",
+    "main.js": "/static/js/main.30ec262d.js",
+    "static/media/London.mp4": "/static/media/London.b6576bc05917b404cc85.mp4",
+    "static/media/MacPawFixel-VF.ttf": "/static/media/MacPawFixel-VF.6264c98396cd6cd78380.ttf",
+    "index.html": "/index.html",
+    "main.1243be1d.css.map": "/static/css/main.1243be1d.css.map",
+    "main.30ec262d.js.map": "/static/js/main.30ec262d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1243be1d.css",
+    "static/js/main.30ec262d.js"
+  ]
+}
