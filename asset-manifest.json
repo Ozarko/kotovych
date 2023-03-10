@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kotovich/static/css/main.c1804104.css",
-    "main.js": "/kotovich/static/js/main.73893559.js",
+    "main.js": "/kotovich/static/js/main.7d712478.js",
     "static/media/London.mp4": "/kotovich/static/media/London.b6576bc05917b404cc85.mp4",
     "static/media/MacPawFixel-VF.ttf": "/kotovich/static/media/MacPawFixel-VF.6264c98396cd6cd78380.ttf",
     "index.html": "/kotovich/index.html",
     "main.c1804104.css.map": "/kotovich/static/css/main.c1804104.css.map",
-    "main.73893559.js.map": "/kotovich/static/js/main.73893559.js.map"
+    "main.7d712478.js.map": "/kotovich/static/js/main.7d712478.js.map"
   },
   "entrypoints": [
     "static/css/main.c1804104.css",
-    "static/js/main.73893559.js"
+    "static/js/main.7d712478.js"
   ]
 }
