@@ -1,0 +1,88 @@
+@use "../../../styles/variables" as variables;
+
+.hero {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  
+  &-header {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: variables.$fs-large;
+    color: #fff;
+    text-transform: uppercase;
+    flex-direction: row;
+    align-self: flex-start;
+    transition: all 1s ease;
+    letter-spacing: 0.4rem;
+    text-shadow: 0 0 0.1rem #fff;
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+  &-section {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 100%;
+    &-video {
+      position: relative;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      width: 40rem;
+      height: 60rem;
+      overflow: hidden;
+      box-shadow: 0 0 5rem rgba(rgb(205, 250, 235), 0.5);
+      transition: all 1s ease;
+      &:hover {
+        cursor: none;
+        transform: scale(1.01);
+      }
+      & > video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60rem;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: variables.$bp-large) {
+  .hero {
+    &-header {
+      font-size: 10rem;
+    }
+    &-section {
+      &-video {
+        width: 30rem;
+        height: 50rem;
+        & > video {
+          height: 50rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: variables.$bp-medium) {
+  .hero {
+    &-header {
+      font-size: 6rem;
+    }
+  }
+}

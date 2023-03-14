@@ -13,6 +13,7 @@
   min-height: 8rem;
   border-bottom: 0.1rem solid colors.$main-white;
   background: rgba(colors.$main-dark, 0.8);
+  gap: 3rem;
 
   &-header {
     flex: 1;
@@ -24,10 +25,11 @@
   &-logo {
     flex: 1;
     &-link {
-      font-size: 2rem;
+      font-size: variables.$fs-small;
       text-transform: uppercase;
       color: colors.$main-white;
       letter-spacing: 0.4rem;
+      white-space: nowrap;
     }
   }
   &-menu {
@@ -35,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 3rem;
 
     &-list {
       flex: 1;
@@ -48,11 +51,12 @@
       & > li {
         position: relative;
         & > a {
-          font-size: 1.6rem;
+          font-size: variables.$fs-small;
           text-transform: uppercase;
           color: colors.$main-white;
           letter-spacing: 0.4rem;
           text-align: center;
+          white-space: nowrap;
         }
       }
     }
@@ -64,7 +68,7 @@
       gap: 2rem;
       & > button {
         position: relative;
-        font-size: 1.6rem;
+        font-size: variables.$fs-small;
         text-transform: uppercase;
         color: colors.$main-white;
         letter-spacing: 0.4rem;
@@ -99,7 +103,7 @@
       flex: 3;
       justify-content: center;
       & > a {
-        font-size: 3rem;
+        font-size: variables.$fs-small;
       }
     }
     &-hamburger {
@@ -183,12 +187,12 @@
         gap: 5rem;
         align-items: flex-start;
         & > li > a {
-          font-size: 3rem;
+          font-size: variables.$fs-small;
         }
       }
       &-language {
         & > button {
-          font-size: 2rem;
+          font-size: variables.$fs-small;
         }
       }
     }

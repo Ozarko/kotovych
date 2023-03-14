@@ -1,8 +1,8 @@
 {
-  "name": "kotovich",
+  "name": "kotovych",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gitname.github.io/kotovich",
+  "homepage": "https://gitname.github.io/kotovych/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -11,8 +11,12 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "axios": "^1.3.4",
+    "dotenv-expand": "^10.0.0",
+    "nodemailer": "^6.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "sass": "^1.58.3",

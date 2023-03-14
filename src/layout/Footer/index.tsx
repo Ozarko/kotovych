@@ -1,47 +1,31 @@
+import React from "react";
+import { useTranslation } from "../../context/useTranslation";
 import "./footer.scss";
 
-const date = new Date();
+const year = new Date().getFullYear();
 
 export const Footer = () => {
+  const {
+    schema: { footer },
+  } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="footer-links">
-        <p>© {date.getFullYear()}</p>
         <a href="/" target="_blank">
-          Kotovich
+          {footer.copyRight}
         </a>
       </div>
-      <div className="footer-social">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/nazar-ozarko-90b542188/"
-        >
-          Facebook
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/nazar-ozarko-90b542188/"
-        >
-          Instagram
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/nazar-ozarko-90b542188/"
-        >
-          LinkedIn
-        </a>
+      <div className="footer-title">
+        <h2>{footer.title}</h2>
       </div>
       <div className="footer-links">
-        <p>Made By</p>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/nazar-ozarko-90b542188/"
         >
-          Ozarko
+          {footer.madeBy}
         </a>
       </div>
     </footer>

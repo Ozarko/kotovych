@@ -1,19 +1,28 @@
+import React, { FC } from "react";
 import { Outlet } from "react-router-dom";
 import Nav from "./Nav";
 import { Background } from "../components/Background";
-import "./layout.scss";
 import { Footer } from "./Footer";
+import "./layout.scss";
+import { TranslationProvider } from "../context/useTranslation";
+import { QueryClient, QueryClientProvider } from "react-query";
 
-function Layout() {
+const queryClient = new QueryClient();
+
+const Layout: FC = () => {
   return (
-    <Background>
-      <Nav />
-      <main className="main">
-        <Outlet />
-      </main>
-      <Footer />
-    </Background>
+    <QueryClientProvider client={queryClient}>
+      <TranslationProvider>
+        <Background>
+          <Nav />
+          <main className="main">
+            <Outlet />
+          </main>
+          <Footer />
+        </Background>
+      </TranslationProvider>
+    </QueryClientProvider>
   );
-}
+};
 
 export default Layout;

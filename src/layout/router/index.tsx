@@ -1,32 +1,23 @@
+import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "..";
-import { Redirect } from "../../components/Redirect";
-import { Home } from "../../screens/Home";
-import LevelCheck from "../../screens/LevelCheck";
-import { RoutesPath } from "../../types/layout";
+import Main from "../../screens/Main";
+import NotFound from "../../screens/NotFound";
 
 export const routersSettings = [
   {
-    path: RoutesPath.HOME,
+    path: "/",
     element: <Layout />,
-    errorElement: <Redirect />,
+    errorElement: <NotFound />,
     children: [
       {
-        element: <Home />,
+        element: <Main />,
         index: true,
-      },
-      {
-        path: RoutesPath.LEVEL_CHECK,
-        element: <LevelCheck />,
-      },
-      {
-        path: RoutesPath.CONTACTS,
-        element: <LevelCheck />,
       },
     ],
   },
 ];
 
 export const routers = createBrowserRouter(routersSettings, {
-  basename: "/",
+  basename: "/kotovych",
 });

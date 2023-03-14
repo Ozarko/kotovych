@@ -1,0 +1,65 @@
+@use "../../../styles/variables.scss" as variables;
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 30vh;
+  gap: 6rem;
+  &-description {
+    width: 60%;
+    & > p {
+      font-size: variables.$fs-medium;
+      color: #fff;
+      letter-spacing: 0.1rem;
+      text-shadow: 0 0 0.1rem #fff;
+      text-align: center;
+      font-weight: 500;
+    }
+    cursor: pointer;
+  }
+  &-social {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    & > a {
+      font-size: variables.$fs-medium;
+      color: #fff;
+      letter-spacing: 0.3rem;
+      text-shadow: 0 0 0.1rem #fff;
+      text-align: center;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+    }
+    & > a:hover {
+      transform: scale(1.02);
+    }
+  }
+  &-separator > p {
+    font-size: variables.$fs-medium;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0 0.1rem #fff;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: variables.$bp-medium) {
+  .contacts {
+    &-description {
+      width: 100%;
+    }
+    &-social {
+      width: 100%;
+    }
+  }
+  .form {
+    width: 100%;
+  }
+}

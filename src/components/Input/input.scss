@@ -1,0 +1,81 @@
+@use "../../styles/colors" as colors;
+@use "../../styles/variables" as variables;
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 1rem;
+  &-input {
+    width: 100%;
+    height: 4rem;
+    font-size: variables.$fs-extra-small;
+    color: #fff;
+    transition: all 0.3s;
+    resize: none;
+    z-index: 2;
+  }
+  &-textarea {
+    width: 100%;
+    font-size: variables.$fs-extra-small;
+    color: #fff;
+    transition: all 0.3s;
+    resize: none;
+    z-index: 2;
+  }
+  &-input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: variables.$fs-extra-small;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  &-textarea-label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: variables.$fs-extra-small;
+    color: #fff;
+    transition: all 0.3s;
+  }
+
+  &-input.with-value ~ label,
+  &-input:focus ~ label {
+    font-size: variables.$fs-extra-small;
+    transform: translateY(-120%);
+  }
+
+  &-textarea.with-value ~ label,
+  &-textarea:focus ~ label {
+    font-size: variables.$fs-extra-small;
+    transform: translateY(-250%);
+  }
+
+  & > span {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 0.1rem;
+    background-color: #fff;
+    transition: all 0.3s;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 0.1rem;
+      background-color: colors.$aquamarine;
+      transition: all 1s;
+    }
+  }
+  &:hover > span::before,
+  &.with-value > span::before,
+  &-input:focus ~ span::before {
+    width: 100%;
+  }
+}

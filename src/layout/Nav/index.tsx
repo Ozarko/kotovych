@@ -1,37 +1,34 @@
+import React from "react";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
-import { RoutesPath } from "../../types/layout";
+import { useTranslation } from "../../context/useTranslation";
+import { Languages } from "../../schemas/locale";
 import "./nav.scss";
-
-const LINKS = [
-  {
-    path: RoutesPath.HOME,
-    name: "Home",
-  },
-  {
-    path: RoutesPath.LEVEL_CHECK,
-    name: "LevelCheck",
-  },
-  {
-    path: RoutesPath.CONTACTS,
-    name: "Contacts",
-  },
-];
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const {
+    currentLanguage,
+    setCurrentLanguage,
+    schema: { navigation },
+  } = useTranslation();
 
   const handleMenuOpen = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const changeLanguage = (language: Languages) => {
+    setCurrentLanguage(language);
+    setIsMenuOpen(false);
+  };
+
   return (
-    <nav className={`nav ${isMenuOpen ? " active" : ""}`}>
+    <nav id="nav" className={`nav ${isMenuOpen ? " active" : ""}`}>
       <div className="nav-header">
         <div className="nav-logo">
-          <NavLink className="nav-logo-link" to="/">
-            Kotovich
-          </NavLink>
+          <a className="nav-logo-link" href="#nav">
+            Kotovych
+          </a>
         </div>
         <div className="nav-hamburger">
           <button
@@ -58,23 +55,34 @@ const Nav = () => {
       </div>
       <div className={`nav-menu ${isMenuOpen ? " active" : ""}`}>
         <ul className="nav-menu-list">
-          {LINKS.map((link) => {
+          {navigation.menu.map((item) => {
             return (
-              <li className="nav-menu-list-item" key={link.path}>
-                <NavLink
+              <li className="nav-menu-list-item" key={item.id}>
+                <a
                   className="nav-menu-list-item-link link-hover"
-                  to={link.path}
+                  href={item.id}
                   onClick={handleMenuOpen}
                 >
-                  {link.name}
-                </NavLink>
+                  {item.title}
+                </a>
               </li>
             );
           })}
         </ul>
         <div className="nav-menu-language">
-          <button className="link-hover">EN</button>
-          <button className="link-hover">UA</button>
+          {navigation.languages.map((item) => {
+            return (
+              <button
+                key={item.id}
+                className={`link-hover ${
+                  currentLanguage === item.id && " active"
+                }`}
+                onClick={() => changeLanguage(item.id)}
+              >
+                {item.name}
+              </button>
+            );
+          })}
         </div>
       </div>
     </nav>
