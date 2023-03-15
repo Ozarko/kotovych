@@ -1,6 +1,7 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "..";
+import { LevelCheck } from "../../screens/LevelCheck";
 import Main from "../../screens/Main";
 import NotFound from "../../screens/NotFound";
 
@@ -13,6 +14,10 @@ export const routersSettings = [
       {
         element: <Main />,
         index: true,
+      },
+      {
+        path: "/level-check",
+        element: <LevelCheck />,
       },
     ],
   },

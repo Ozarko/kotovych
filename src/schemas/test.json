@@ -1,0 +1,665 @@
+[
+  {
+    "question": [
+      "I",
+      "a student of English."
+    ],
+    "variants": {
+      "a": "are",
+      "b": "is",
+      "c": "am",
+      "d": "aren't"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Tim and Sue",
+      "teachers."
+    ],
+    "variants": {
+      "a": "are",
+      "b": "is",
+      "c": "isn't",
+      "d": "aren't"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "This is Sebastien. He's ",
+      "."
+    ],
+    "variants": {
+      "a": "Japan",
+      "b": "Spain",
+      "c": "Italy",
+      "d": "French"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "She's from Dublin. She",
+      "Irish."
+    ],
+    "variants": {
+      "a": "is from",
+      "b": "is",
+      "c": "isn't",
+      "d": "are from"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "They",
+      "Welsh. They're from Scotland."
+    ],
+    "variants": {
+      "a": "aren't",
+      "b": "is",
+      "c": "isn't",
+      "d": "are"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "",
+      "'s your first name?"
+    ],
+    "variants": {
+      "a": "Who",
+      "b": "What",
+      "c": "How",
+      "d": "Where"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Those are your books and",
+      "are mine. "
+    ],
+    "variants": {
+      "a": "these",
+      "b": "this",
+      "c": "it",
+      "d": "that"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I love music but I",
+      "like TV."
+    ],
+    "variants": {
+      "a": "do",
+      "b": "does",
+      "c": "don't",
+      "d": "doesn't"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "",
+      "she like sport? "
+    ],
+    "variants": {
+      "a": "Do",
+      "b": "Does",
+      "c": "Is",
+      "d": "Don't"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "When",
+      "have lunch?"
+    ],
+    "variants": {
+      "a": "is he",
+      "b": "he's",
+      "c": "do he",
+      "d": "does he"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "Do you like",
+      "DVDs?"
+    ],
+    "variants": {
+      "a": "watch",
+      "b": "watching",
+      "c": "watches",
+      "d": "to watching"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "They start",
+      "school at 8.00 in the morning."
+    ],
+    "variants": {
+      "a": "to",
+      "b": "at",
+      "c": "-",
+      "d": "the"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Peter's",
+      "name is Michael."
+    ],
+    "variants": {
+      "a": "brother's",
+      "b": "sister is",
+      "c": "brother",
+      "d": "sisters"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "She's very friendly but she",
+      "very quiet."
+    ],
+    "variants": {
+      "a": "never is",
+      "b": "'s often",
+      "c": "often is",
+      "d": "never"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "He hasn't got",
+      "brothers and sisters."
+    ],
+    "variants": {
+      "a": "some",
+      "b": "any",
+      "c": "the",
+      "d": "a"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "They went to the beach with some friends",
+      "Sunday."
+    ],
+    "variants": {
+      "a": "at",
+      "b": "the",
+      "c": "on",
+      "d": "in"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "What ",
+      "your father look like?"
+    ],
+    "variants": {
+      "a": "is",
+      "b": "do",
+      "c": "are",
+      "d": "does"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "How many children",
+      "got?"
+    ],
+    "variants": {
+      "a": "they've",
+      "b": "have they",
+      "c": "they",
+      "d": "do they"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "She",
+      "jeans to work."
+    ],
+    "variants": {
+      "a": "wears usually",
+      "b": "is usually wearing",
+      "c": "usually wears",
+      "d": "is wearing usually"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "",
+      "two armchairs and a sofa in the living room."
+    ],
+    "variants": {
+      "a": "It's",
+      "b": "There are",
+      "c": "There have",
+      "d": "There's"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "There aren't",
+      "wardrobes in the main bedroom."
+    ],
+    "variants": {
+      "a": "any",
+      "b": "some",
+      "c": "the",
+      "d": "a"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "You",
+      "buy shoes in a post office."
+    ],
+    "variants": {
+      "a": "can to",
+      "b": "can",
+      "c": "can't",
+      "d": "are"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "There are a lot of CDs",
+      "the shelves."
+    ],
+    "variants": {
+      "a": "in",
+      "b": "between",
+      "c": "on",
+      "d": "above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "The cinema is",
+      "the bank."
+    ],
+    "variants": {
+      "a": "next",
+      "b": "in front",
+      "c": "opposite",
+      "d": "under"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Can I have a",
+      "of milk, please?"
+    ],
+    "variants": {
+      "a": "bar",
+      "b": "jar",
+      "c": "box",
+      "d": "carton"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "There is",
+      "butter in the fridge."
+    ],
+    "variants": {
+      "a": "one",
+      "b": "some",
+      "c": "any",
+      "d": "an"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "How",
+      "vegetables do you eat every day?"
+    ],
+    "variants": {
+      "a": "many",
+      "b": "long",
+      "c": "more",
+      "d": "much"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "He",
+      "afraid of the dark when he was young."
+    ],
+    "variants": {
+      "a": "wasn't",
+      "b": "weren't",
+      "c": "were",
+      "d": "didn't"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "We",
+      "born in 1985."
+    ],
+    "variants": {
+      "a": "is",
+      "b": "were",
+      "c": "was",
+      "d": "did"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "My birthday is on February",
+      "."
+    ],
+    "variants": {
+      "a": "10rd",
+      "b": "10st",
+      "c": "10nd",
+      "d": "10th"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "",
+      "they do a lot of sport when they were at school?"
+    ],
+    "variants": {
+      "a": "Were",
+      "b": "Do",
+      "c": "Was",
+      "d": "Did"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "We",
+      "to New Zealand when I was six."
+    ],
+    "variants": {
+      "a": "move",
+      "b": "moves",
+      "c": "moved",
+      "d": "moving"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "They",
+      "a taxi to the airport an hour ago."
+    ],
+    "variants": {
+      "a": "take",
+      "b": "took",
+      "c": "are taking",
+      "d": "takes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "",
+      "did you last see them?"
+    ],
+    "variants": {
+      "a": "What",
+      "b": "When",
+      "c": "Who",
+      "d": "Which"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "We went",
+      "at the weekend."
+    ],
+    "variants": {
+      "a": "the shops",
+      "b": "to shops",
+      "c": "shopping",
+      "d": "shops"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Is Chinese food",
+      "than Thai food?"
+    ],
+    "variants": {
+      "a": "best",
+      "b": "more good",
+      "c": "better",
+      "d": "well"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Today is",
+      "than yesterday."
+    ],
+    "variants": {
+      "a": "cold",
+      "b": "coldest",
+      "c": "more cold",
+      "d": "colder"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "He stayed at the",
+      "hotel in town."
+    ],
+    "variants": {
+      "a": "more expensive",
+      "b": "expensivest",
+      "c": "expensive",
+      "d": "most expensive"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "Can you tell me the",
+      "to the library?"
+    ],
+    "variants": {
+      "a": "road",
+      "b": "way",
+      "c": "street",
+      "d": "place"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "They",
+      "their homework now."
+    ],
+    "variants": {
+      "a": "are do",
+      "b": "did",
+      "c": "are doing",
+      "d": "does"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "We walked ten kilometres so we",
+      "hungry now."
+    ],
+    "variants": {
+      "a": "are getting",
+      "b": "get",
+      "c": "got",
+      "d": "has got"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "What",
+      "doing at the moment?"
+    ],
+    "variants": {
+      "a": "is he",
+      "b": "does he",
+      "c": "is",
+      "d": "he's"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "He goes to work",
+      "train."
+    ],
+    "variants": {
+      "a": "in",
+      "b": "on",
+      "c": "by the",
+      "d": "by"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "You",
+      "drive a car in the centre of town. It isn't allowed."
+    ],
+    "variants": {
+      "a": "don't have to",
+      "b": "can",
+      "c": "have to",
+      "d": "can't"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "You",
+      "to walk, you can take a bus."
+    ],
+    "variants": {
+      "a": "mustn't",
+      "b": "have",
+      "c": "must",
+      "d": "don't have"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "He",
+      "to move to another country."
+    ],
+    "variants": {
+      "a": "want",
+      "b": "'d like",
+      "c": "likes",
+      "d": "goes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "I'm",
+      "learn to cook."
+    ],
+    "variants": {
+      "a": "go to",
+      "b": "going",
+      "c": "going to",
+      "d": "go"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Don't stay up late or you",
+      "be tired tomorrow."
+    ],
+    "variants": {
+      "a": "must",
+      "b": "won't",
+      "c": "should",
+      "d": "'ll"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Let's",
+      "tennis this afternoon."
+    ],
+    "variants": {
+      "a": "play",
+      "b": "go",
+      "c": "to go",
+      "d": "playing"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I've got the flu. I",
+      "take some medicine."
+    ],
+    "variants": {
+      "a": "shouldn't",
+      "b": "might not",
+      "c": "going to",
+      "d": "should"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "",
+      "you spoken to Jenny?"
+    ],
+    "variants": {
+      "a": "Did",
+      "b": "Do",
+      "c": "Have",
+      "d": "Has"
+    },
+    "answer": "c"
+  }
+]

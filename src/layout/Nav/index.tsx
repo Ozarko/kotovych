@@ -1,11 +1,14 @@
 import React from "react";
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { useTranslation } from "../../context/useTranslation";
 import { Languages } from "../../schemas/locale";
 import "./nav.scss";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const { pathname } = useLocation();
 
   const {
     currentLanguage,
@@ -60,7 +63,7 @@ const Nav = () => {
               <li className="nav-menu-list-item" key={item.id}>
                 <a
                   className="nav-menu-list-item-link link-hover"
-                  href={item.id}
+                  href={`${pathname === '/' ? item.id : `/kotovych/${item.id}`}`}
                   onClick={handleMenuOpen}
                 >
                   {item.title}

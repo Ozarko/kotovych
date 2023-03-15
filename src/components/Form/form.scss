@@ -38,5 +38,14 @@
       max-height: 10rem;
       gap: 3rem;
     }
+    &-error {
+      & > p {
+        font-size: variables.$fs-extra-small;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 0 0.1rem #fff;
+        letter-spacing: 0.3rem;
+      }
+    }
   }
 }

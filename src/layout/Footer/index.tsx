@@ -2,8 +2,6 @@ import React from "react";
 import { useTranslation } from "../../context/useTranslation";
 import "./footer.scss";
 
-const year = new Date().getFullYear();
-
 export const Footer = () => {
   const {
     schema: { footer },

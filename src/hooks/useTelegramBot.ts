@@ -1,8 +1,9 @@
 import axios from "axios";
-import { useMutation, useQuery } from "react-query";
+import { useMutation } from "react-query";
 import { FormDataArgs } from "../components/Form";
 
 export const useTelegramBot = () => {
+
   const sendMessage = async ({ name, phone, message }: FormDataArgs) => {
     const tMessage = `<b>Нове повідомлення з сайту</b> %0A%0A <b>Ім'я:</b> ${name} %0A %0A <b>Телефон:</b> ${phone} %0A %0A <b>Повідомлення:</b> ${message}`;
     await axios.post(

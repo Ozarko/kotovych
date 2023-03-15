@@ -39,12 +39,22 @@ interface TranslationStructure {
         phone: string;
         message: string;
       };
+      errors: {
+        name: string;
+        phone: string;
+        message: string;
+      };
     };
   };
   footer: {
     copyRight: string;
     madeBy: string;
     title: string;
+  };
+  levelCheck: {
+    title: string;
+    description: string;
+    actionButton: string;
   };
 }
 
@@ -118,6 +128,11 @@ export const locale: Locale = {
           phone: "Телефон",
           message: "Повідомлення",
         },
+        errors: {
+          name: "Введіть ім'я",
+          phone: "Введіть телефон у форматі 0ХХХХХХХХХ",
+          message: "Введіть повідомлення",
+        },
       },
       separator: "Або",
     },
@@ -125,6 +140,12 @@ export const locale: Locale = {
       copyRight: `© ${year} Котович`,
       madeBy: "Розроблено Озарком",
       title: "Слава Україні",
+    },
+    levelCheck: {
+      title: "Тест на знання англійської мови",
+      description:
+        'Ласкаво прошу до тесту на знання англійської мови. Цей тест призначений для вимірювання вашого рівня знання та вмінь англійської мови. Він складається з запитань типу "багато варіантів відповіді", які охоплюють різні аспекти мови, такі як граматика, словниковий запас, та розуміння прочитаного.',
+      actionButton: "Розпочати тест",
     },
   },
   en: {
@@ -183,11 +204,16 @@ export const locale: Locale = {
         "If you have any questions, want to book a lesson, or just say hello, feel free to get in touch with me. I am always happy to hear from my students and colleagues.",
       form: {
         title: "Write to me",
-        button: "Send",
+        button: "Send Message",
         placeHolders: {
           name: "Name",
           phone: "Phone",
           message: "Message",
+        },
+        errors: {
+          name: "Enter your name",
+          phone: "Enter phone number in format 0ХХХХХХХХХ",
+          message: "Enter your message",
         },
       },
       separator: "Or",
@@ -196,6 +222,12 @@ export const locale: Locale = {
       copyRight: `© ${year} Kotovych`,
       madeBy: "Made by Ozarko",
       title: "GLORY TO UKRAINE",
+    },
+    levelCheck: {
+      title: "English Level Check",
+      description:
+        "Welcome to the English proficiency test. This test is designed to measure your level of English knowledge and skills. It consists of multiple choice questions covering various areas of the language such as grammar, vocabulary, reading comprehension and listening.",
+      actionButton: "Start Test",
     },
   },
 };

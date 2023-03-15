@@ -55,6 +55,12 @@
     transform: translateY(-250%);
   }
 
+  &.error {
+    & > span {
+      background-color: mediumpurple;
+    }
+  }
+
   & > span {
     position: absolute;
     width: 100%;
