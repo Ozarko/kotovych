@@ -661,5 +661,1955 @@
       "d": "Has"
     },
     "answer": "c"
+  },
+  {
+    "question": [
+      "",
+      "does that jacket cost?"
+    ],
+    "variants": {
+      "a": "How often",
+      "b": "How long",
+      "c": "How many",
+      "d": "How much"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "",
+      "did you leave your job?"
+    ],
+    "variants": {
+      "a": "Where",
+      "b": "What",
+      "c": "Why",
+      "d": "Which"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "They",
+      "flown to India."
+    ],
+    "variants": {
+      "a": "didn't",
+      "b": "doesn't",
+      "c": "haven't",
+      "d": "has"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "",
+      "you like a coffee?"
+    ],
+    "variants": {
+      "a": "Will",
+      "b": "Would",
+      "c": "Did",
+      "d": "Do"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "I",
+      "to go home now."
+    ],
+    "variants": {
+      "a": "'m wanting",
+      "b": "will want",
+      "c": "want",
+      "d": "wanting"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "She",
+      "in Belgium at the moment."
+    ],
+    "variants": {
+      "a": "living",
+      "b": "'s lived",
+      "c": "is living",
+      "d": "lives"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Nick",
+      "gets up at 7 o'clock and leaves for work at 8 o'clock. He does this every day from Monday to Friday."
+    ],
+    "variants": {
+      "a": "always",
+      "b": "never",
+      "c": "sometimes",
+      "d": "hardly ever"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "We go shopping",
+      "month."
+    ],
+    "variants": {
+      "a": "every a",
+      "b": "once",
+      "c": "every two",
+      "d": "twice a"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "I'm not keen on",
+      ""
+    ],
+    "variants": {
+      "a": "run",
+      "b": "to running",
+      "c": "to run",
+      "d": "running"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "What",
+      "tonight?"
+    ],
+    "variants": {
+      "a": "they do",
+      "b": "do they do",
+      "c": "are they doing",
+      "d": "are they do"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Are you",
+      "the new exhibition at the National Gallery?"
+    ],
+    "variants": {
+      "a": "going to see",
+      "b": "seeing",
+      "c": "going see",
+      "d": "go to see"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "",
+      "laptop is that? Is it Bob's?"
+    ],
+    "variants": {
+      "a": "Which",
+      "b": "Who",
+      "c": "What",
+      "d": "Whose"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I have never",
+      "a dangerous sport."
+    ],
+    "variants": {
+      "a": "do",
+      "b": "made",
+      "c": "make",
+      "d": "done"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "",
+      "he ever flown in a helicopter?"
+    ],
+    "variants": {
+      "a": "Did",
+      "b": "Do",
+      "c": "Has",
+      "d": "Have"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "You",
+      "be late for school again."
+    ],
+    "variants": {
+      "a": "mustn't",
+      "b": "have to",
+      "c": "must",
+      "d": "can"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "You",
+      "wear a suit. It's a very formal party."
+    ],
+    "variants": {
+      "a": "shouldn't",
+      "b": "have to",
+      "c": "mustn't",
+      "d": "might"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "I",
+      "dinner when I heard a strange noise."
+    ],
+    "variants": {
+      "a": "was cook",
+      "b": "did cook",
+      "c": "was cooking",
+      "d": "am doing"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "When did she decide",
+      "married?"
+    ],
+    "variants": {
+      "a": "to get",
+      "b": "got",
+      "c": "to",
+      "d": "get"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "We should avoid",
+      "in August."
+    ],
+    "variants": {
+      "a": "travelled",
+      "b": "to travel",
+      "c": "travelling",
+      "d": "to travelling"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "He's studied Spanish",
+      "last year."
+    ],
+    "variants": {
+      "a": "since",
+      "b": "the",
+      "c": "at",
+      "d": "-"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I don't think I",
+      " the job. I didn't answer all their questions in the interview very well."
+    ],
+    "variants": {
+      "a": "'ll",
+      "b": "might",
+      "c": "won't",
+      "d": "might not"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "She",
+      "here this weekend."
+    ],
+    "variants": {
+      "a": "will being",
+      "b": "may to be",
+      "c": "won't to be",
+      "d": "might be"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "We haven't seen them",
+      "years."
+    ],
+    "variants": {
+      "a": "at",
+      "b": "since",
+      "c": "for",
+      "d": "ages"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "How long have you",
+      "him?"
+    ],
+    "variants": {
+      "a": "know",
+      "b": "knew",
+      "c": "knows",
+      "d": "known"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I",
+      "wear a uniform to school."
+    ],
+    "variants": {
+      "a": "use to",
+      "b": "didn't use to",
+      "c": "used",
+      "d": "didn't used to"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "Did they",
+      "in Australia?"
+    ],
+    "variants": {
+      "a": "use to live",
+      "b": "used to live",
+      "c": "used live",
+      "d": "used to living"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "She's moving to Canada",
+      "she can study English."
+    ],
+    "variants": {
+      "a": "so that",
+      "b": "so to",
+      "c": "because to",
+      "d": "in order to"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I travelled around the world for a year",
+      "learn about other cultures."
+    ],
+    "variants": {
+      "a": "for",
+      "b": "for to",
+      "c": "to",
+      "d": "in order"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "He married the girl",
+      " used to sit next to him at school."
+    ],
+    "variants": {
+      "a": "who",
+      "b": "which",
+      "c": "what",
+      "d": "whose"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "Children spend",
+      " hours watching TV."
+    ],
+    "variants": {
+      "a": "too many",
+      "b": "not enough",
+      "c": "very",
+      "d": "too much"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "I don't have",
+      "to do the things I enjoy."
+    ],
+    "variants": {
+      "a": "time enough",
+      "b": "enough time",
+      "c": "too many time",
+      "d": "some time"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Can I try this coat",
+      ", please?"
+    ],
+    "variants": {
+      "a": "in",
+      "b": "on",
+      "c": "to",
+      "d": "up"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "It's",
+      "beautiful house I've ever seen."
+    ],
+    "variants": {
+      "a": "most",
+      "b": "more",
+      "c": "the most",
+      "d": "a most"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "There's more traffic and",
+      "space to walk in the streets nowadays."
+    ],
+    "variants": {
+      "a": "more",
+      "b": "less",
+      "c": "least",
+      "d": "bigger"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "I think travelling by plane is",
+      "easier than travelling by car."
+    ],
+    "variants": {
+      "a": "more",
+      "b": "most",
+      "c": "-",
+      "d": "the most"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "She worked as a teacher in",
+      "Africa."
+    ],
+    "variants": {
+      "a": "-",
+      "b": "a",
+      "c": "an",
+      "d": "the"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "They live in",
+      "south of France."
+    ],
+    "variants": {
+      "a": "-",
+      "b": "a",
+      "c": "an",
+      "d": "the"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "He",
+      "to work in his company's office in Shanghai."
+    ],
+    "variants": {
+      "a": "sent",
+      "b": "was",
+      "c": "was send",
+      "d": "was sent"
+    },
+    "answer": "с"
+  },
+  {
+    "question": [
+      "I",
+      "that I'm like my father."
+    ],
+    "variants": {
+      "a": "'m told",
+      "b": "told",
+      "c": "was said",
+      "d": "am said"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "The postman hasn't delivered the parcel",
+      "."
+    ],
+    "variants": {
+      "a": "just",
+      "b": "already",
+      "c": "yet",
+      "d": "never"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "My brother",
+      "passed his exams."
+    ],
+    "variants": {
+      "a": "just has",
+      "b": "already has",
+      "c": "yet",
+      "d": "'s just"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "A lot of people think that when they",
+      ", they'll have lots of free time, but often they don't."
+    ],
+    "variants": {
+      "a": "will retire",
+      "b": "retire",
+      "c": "retired",
+      "d": "won't retire"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "What",
+      "happen if he doesn't get here in time?"
+    ],
+    "variants": {
+      "a": "will",
+      "b": "it would",
+      "c": "will it",
+      "d": "it will"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "If you save some money, you",
+      "to worry any more."
+    ],
+    "variants": {
+      "a": "'ll have",
+      "b": "don't",
+      "c": "will",
+      "d": "won't have"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "He",
+      "me my book would be a great success."
+    ],
+    "variants": {
+      "a": "told",
+      "b": "said",
+      "c": "say",
+      "d": "tell"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "She told me she",
+      "buy me a new phone."
+    ],
+    "variants": {
+      "a": "don't",
+      "b": "won't to",
+      "c": "'ll",
+      "d": "'d"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "What would they do if they",
+      "have any money?"
+    ],
+    "variants": {
+      "a": "were",
+      "b": "didn't",
+      "c": "won't",
+      "d": "'d"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "I'd do more exercise if I",
+      "time."
+    ],
+    "variants": {
+      "a": "have",
+      "b": "'d have",
+      "c": "'ll have",
+      "d": "had"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "",
+      "be possible to reserve a table for tonight?"
+    ],
+    "variants": {
+      "a": "Can I",
+      "b": "Could you",
+      "c": "Would it",
+      "d": "Will"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Could you",
+      "a good film?"
+    ],
+    "variants": {
+      "a": "say me",
+      "b": "recommend",
+      "c": "tell me",
+      "d": "advice"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "When",
+      "arrive?"
+    ],
+    "variants": {
+      "a": "they did",
+      "b": "did they",
+      "c": "have they",
+      "d": "does they"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Who",
+      "all this mess?"
+    ],
+    "variants": {
+      "a": "made",
+      "b": "did make",
+      "c": "are make",
+      "d": "was making"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "He's French but he",
+      "in London at the moment."
+    ],
+    "variants": {
+      "a": "living",
+      "b": "does live",
+      "c": "'s living",
+      "d": "lived"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "What",
+      "of doing now?"
+    ],
+    "variants": {
+      "a": "are you think",
+      "b": "do you think",
+      "c": "think you",
+      "d": "are you thinking"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "I",
+      "so tired that I went to bed shortly after dinner."
+    ],
+    "variants": {
+      "a": "'m",
+      "b": "had been",
+      "c": "was",
+      "d": "'ve felt"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Have you told them the good news",
+      "?"
+    ],
+    "variants": {
+      "a": "just",
+      "b": "yet",
+      "c": "last night",
+      "d": "never"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "",
+      "Thai food?"
+    ],
+    "variants": {
+      "a": "Did she ever ate",
+      "b": "Has she ever eaten",
+      "c": "Does she ate",
+      "d": "Have she ever eaten"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "We",
+      "to work yesterday when we heard a loud crash behind us."
+    ],
+    "variants": {
+      "a": "was walking",
+      "b": "'ve walked",
+      "c": "were walking",
+      "d": "walked"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "They realised they",
+      "to take her address so they had to go back and get it."
+    ],
+    "variants": {
+      "a": "'ve forgot",
+      "b": "'d forgot",
+      "c": "'d forgotten",
+      "d": "were forgot"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "He",
+      "there before so he found it very exciting."
+    ],
+    "variants": {
+      "a": "hadn't been",
+      "b": "didn't go",
+      "c": "wasn't",
+      "d": "hasn't been"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "We",
+      "on holiday tomorrow so I hope the weather stays warm."
+    ],
+    "variants": {
+      "a": "'ve gone",
+      "b": "'ll going",
+      "c": "'re going",
+      "d": "will to go"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "They",
+      "to call at this time of night. It's very late."
+    ],
+    "variants": {
+      "a": "going",
+      "b": "might",
+      "c": "may well",
+      "d": "'re unlikely"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "Do you think they",
+      "the championship?"
+    ],
+    "variants": {
+      "a": "may well win",
+      "b": "'ll win",
+      "c": "'re winning",
+      "d": "'ll can win"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "The room",
+      "look more cheerful if you paint it yellow."
+    ],
+    "variants": {
+      "a": "is",
+      "b": "is probably",
+      "c": "will probably",
+      "d": "probably might"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "He",
+      "to pass his driving test this time.  He's making too many mistakes. "
+    ],
+    "variants": {
+      "a": "could",
+      "b": "'s not going",
+      "c": "definitely won't",
+      "d": "can't"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "People ",
+      " smoke in public buildings. It is not allowed."
+    ],
+    "variants": {
+      "a": "don't have to",
+      "b": "must",
+      "c": "shouldn't",
+      "d": "mustn't"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "You",
+      "enter the marathon if you don't want to. "
+    ],
+    "variants": {
+      "a": "must",
+      "b": "should",
+      "c": "don't have to",
+      "d": "have to"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "My advice is that you",
+      "find another job. You can't work with that awful boss any more."
+    ],
+    "variants": {
+      "a": "don't have",
+      "b": "should",
+      "c": "must",
+      "d": "mustn't"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "I",
+      "be very good at sports when I was a teenager."
+    ],
+    "variants": {
+      "a": "would",
+      "b": "wasn't",
+      "c": "use to",
+      "d": "used to"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "She",
+      "often sit in the garden after coming home from work."
+    ],
+    "variants": {
+      "a": "use to",
+      "b": "would",
+      "c": "didn't use",
+      "d": "often would"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Swimming is one of the",
+      "ways to get fit."
+    ],
+    "variants": {
+      "a": "betterer",
+      "b": "more better",
+      "c": "most better",
+      "d": "best"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "The red shoes were",
+      "expensive than the black ones."
+    ],
+    "variants": {
+      "a": "far more",
+      "b": "bit more",
+      "c": "further",
+      "d": "not as"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "That shop's not",
+      "it used to be."
+    ],
+    "variants": {
+      "a": "more cheap than",
+      "b": "as cheap as",
+      "c": "the cheapest as",
+      "d": "as cheaper as"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "We",
+      "have to leave yet, do we?"
+    ],
+    "variants": {
+      "a": "will",
+      "b": "won't",
+      "c": "aren't",
+      "d": "don't"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "His father was a famous writer,",
+      "?"
+    ],
+    "variants": {
+      "a": "isn't he",
+      "b": "hasn't he",
+      "c": "wasn't he",
+      "d": "was he"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "I can't work if I",
+      "very hungry."
+    ],
+    "variants": {
+      "a": "feel",
+      "b": "'m feel",
+      "c": "'ll feel",
+      "d": "can feel"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "He won't pass the exam",
+      "he doesn't study hard for it."
+    ],
+    "variants": {
+      "a": "if",
+      "b": "when",
+      "c": "unless",
+      "d": "while"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "Could I borrow your car if I",
+      "to drive it carefully?"
+    ],
+    "variants": {
+      "a": "might promise",
+      "b": "'ll promise",
+      "c": "would promise",
+      "d": "promise"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "He",
+      "see the film if he went with an adult."
+    ],
+    "variants": {
+      "a": "should",
+      "b": "'ll",
+      "c": "could",
+      "d": "can"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "If I",
+      "you, I'd take it back to the shop."
+    ],
+    "variants": {
+      "a": "am",
+      "b": "were",
+      "c": "have been",
+      "d": "had been"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "How long have you",
+      "the violin?"
+    ],
+    "variants": {
+      "a": "been playing",
+      "b": "play",
+      "c": "playing",
+      "d": "being played"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I",
+      "listening to jazz music."
+    ],
+    "variants": {
+      "a": "'ve always enjoying",
+      "b": "'ve always enjoyed",
+      "c": "was always enjoyed",
+      "d": "'ve enjoyed always"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "He",
+      "swim by the time he was five but he hasn't learnt to dive yet."
+    ],
+    "variants": {
+      "a": "can to",
+      "b": "couldn't",
+      "c": "could",
+      "d": "can't to"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "We",
+      "to go to the match but we managed to watch it on TV."
+    ],
+    "variants": {
+      "a": "weren't able",
+      "b": "can't",
+      "c": "were able",
+      "d": "could"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "I've just seen",
+      "perfect car for you!"
+    ],
+    "variants": {
+      "a": "an",
+      "b": "the",
+      "c": "-",
+      "d": "a"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "I didn't know they had a summer cottage",
+      "south coast of Spain."
+    ],
+    "variants": {
+      "a": "on the",
+      "b": "on a",
+      "c": "-",
+      "d": "on"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "They seem to have",
+      "money but they don't have many friends."
+    ],
+    "variants": {
+      "a": "a lot",
+      "b": "few of ",
+      "c": "plenty of",
+      "d": "many"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "We don't have",
+      "time to go on holiday."
+    ],
+    "variants": {
+      "a": "enough",
+      "b": "enough of ",
+      "c": "many",
+      "d": "several"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "That's the beach",
+      "I first met your father."
+    ],
+    "variants": {
+      "a": "when",
+      "b": "which",
+      "c": "where",
+      "d": "that"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Is that the coat",
+      "you said you wanted to buy?"
+    ],
+    "variants": {
+      "a": "-",
+      "b": "what",
+      "c": "who",
+      "d": "how"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "I've got a new job,",
+      "is why I've moved to Brussels."
+    ],
+    "variants": {
+      "a": "that",
+      "b": "where",
+      "c": "it",
+      "d": "which"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "We",
+      "arrived on time if the traffic hadn't been so bad."
+    ],
+    "variants": {
+      "a": "had",
+      "b": "wouldn't",
+      "c": "would've",
+      "d": "'d"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "What",
+      "if you hadn't been there?"
+    ],
+    "variants": {
+      "a": "he'd done",
+      "b": "will he do",
+      "c": "would he do",
+      "d": "would he have done"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "They",
+      "told what to do yet."
+    ],
+    "variants": {
+      "a": "wasn't been",
+      "b": "haven't been",
+      "c": "hasn't been",
+      "d": "haven't being"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Their furniture",
+      "by Anne's husband, who used to be a carpenter."
+    ],
+    "variants": {
+      "a": "that was made",
+      "b": "being made",
+      "c": "was made",
+      "d": "has made"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "They didn't want to stay late but the boss said they",
+      "to."
+    ],
+    "variants": {
+      "a": "haven't",
+      "b": "had",
+      "c": "'d had",
+      "d": "have"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "She said she",
+      "to do it last weekend."
+    ],
+    "variants": {
+      "a": "was going",
+      "b": "'s going",
+      "c": "had done",
+      "d": "will"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I asked her if she",
+      "my new mobile."
+    ],
+    "variants": {
+      "a": "'s seen",
+      "b": "'d seen",
+      "c": "'d see",
+      "d": "saw"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "He promised",
+      "me decorate my house."
+    ],
+    "variants": {
+      "a": "that he help",
+      "b": "helping",
+      "c": "to helping",
+      "d": "to help"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "Why don't we",
+      "to take them to the airport?"
+    ],
+    "variants": {
+      "a": "suggest",
+      "b": "warn",
+      "c": "offer",
+      "d": "explain"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "What",
+      "at the end of the film? I missed it."
+    ],
+    "variants": {
+      "a": "did happen",
+      "b": "happened",
+      "c": "'s happened",
+      "d": "was happened"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "Do you mind me asking how old",
+      "?"
+    ],
+    "variants": {
+      "a": "are you",
+      "b": "you're",
+      "c": "you are",
+      "d": "you have"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "",
+      " if you'd like to meet up tomorrow."
+    ],
+    "variants": {
+      "a": "I'd be interested to",
+      "b": "Can I ask",
+      "c": "Do you know",
+      "d": "I was wondering"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "They",
+      "in a large house for twenty years before moving to a bungalow."
+    ],
+    "variants": {
+      "a": "'ve lived",
+      "b": "lived",
+      "c": "already live",
+      "d": "recently lived"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "Have you heard from your brother",
+      "?"
+    ],
+    "variants": {
+      "a": "recently",
+      "b": "still",
+      "c": "last week",
+      "d": "this time last month"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "I",
+      "for my car keys for half an hour and I still haven't found them!"
+    ],
+    "variants": {
+      "a": "'ve been looked",
+      "b": "'ve been looking",
+      "c": "looked",
+      "d": "'m looking"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Billy",
+      "watching motorbike races."
+    ],
+    "variants": {
+      "a": "always has loved",
+      "b": "'s always loving",
+      "c": "'s always loved",
+      "d": "'s always been loving"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Her parents are very proud. She",
+      "a fantastic job in a well known law firm."
+    ],
+    "variants": {
+      "a": "been offered",
+      "b": "offered",
+      "c": "is offered",
+      "d": "'s been offered"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "How much do you think he",
+      "as director of the company?"
+    ],
+    "variants": {
+      "a": "is been paid",
+      "b": "has being paid",
+      "c": "'s being paid",
+      "d": "being paid"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "You should",
+      "what to do when you get to the office."
+    ],
+    "variants": {
+      "a": "be told",
+      "b": "be tell",
+      "c": "told",
+      "d": "tell"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "He",
+      "for his plane for an hour when it was suddenly cancelled."
+    ],
+    "variants": {
+      "a": "was waiting",
+      "b": "'d been waiting",
+      "c": "waited",
+      "d": "'s been waiting"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "When we walked into the hotel, a log fire",
+      "in the fireplace."
+    ],
+    "variants": {
+      "a": "burnt",
+      "b": "'d burnt",
+      "c": "was burning",
+      "d": "'s burning"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "My car's just broken down for the third time. I wish I",
+      "it."
+    ],
+    "variants": {
+      "a": "didn't buy",
+      "b": "'d bought",
+      "c": "wasn't buying",
+      "d": "hadn't bought"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "If only",
+      "a foreign language. I didn't have the choice at school."
+    ],
+    "variants": {
+      "a": "I can speak",
+      "b": "I speak",
+      "c": "I could speak",
+      "d": "I could to speak"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Jim",
+      "sharing a flat but now he prefers to live on his own."
+    ],
+    "variants": {
+      "a": "used to like",
+      "b": "would like",
+      "c": "never use to like",
+      "d": "never used to"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "Liane",
+      "complaining about her long drive to work. In the end, she decided to change jobs."
+    ],
+    "variants": {
+      "a": "is generally",
+      "b": "used to",
+      "c": "would be",
+      "d": "was always"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "They",
+      "us at the weekend. It depends on the weather."
+    ],
+    "variants": {
+      "a": "might visit",
+      "b": "are visiting",
+      "c": "are going to visit",
+      "d": "due to visit"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "He",
+      "hungry when he gets home from football practice."
+    ],
+    "variants": {
+      "a": "likely to be",
+      "b": "'s likely to be",
+      "c": "like to be",
+      "d": "'ll like to be"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "We",
+      "to get married next April."
+    ],
+    "variants": {
+      "a": "'ll probably",
+      "b": "'re planning",
+      "c": "'re definitely",
+      "d": "might"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "How many people have climbed",
+      "Mount Everest?"
+    ],
+    "variants": {
+      "a": "a",
+      "b": "the",
+      "c": "in",
+      "d": "-"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "The children played in the garden with",
+      "ball I'd given them."
+    ],
+    "variants": {
+      "a": "a",
+      "b": "the",
+      "c": "an",
+      "d": "-"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "If you lend me 200$, I",
+      "you back at the end of the month."
+    ],
+    "variants": {
+      "a": "might paid",
+      "b": "will pay",
+      "c": "'ll paying",
+      "d": "would pay"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "If I",
+      "to your proposal, when could we sign the contract?"
+    ],
+    "variants": {
+      "a": "was agreed",
+      "b": "were agreeing",
+      "c": "were to agree",
+      "d": "weren't agree"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "Children under 15 could attend",
+      "they were with an adult."
+    ],
+    "variants": {
+      "a": "providing to",
+      "b": "as long as",
+      "c": "if only",
+      "d": "as long than"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "We",
+      "show our passports when we left the country."
+    ],
+    "variants": {
+      "a": "mustn't",
+      "b": "weren't allowed",
+      "c": "were obliged",
+      "d": "didn't have to"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "We had very little petrol left in the car but we",
+      "get home in the end."
+    ],
+    "variants": {
+      "a": "must",
+      "b": "managed to",
+      "c": "were able",
+      "d": "could"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "This time tomorrow, they",
+      "in San Francisco. How exciting!"
+    ],
+    "variants": {
+      "a": "'ll land",
+      "b": "'ll be landed",
+      "c": "'ll be landing",
+      "d": "have landed"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "When do you think you",
+      "painting the house?"
+    ],
+    "variants": {
+      "a": "finish",
+      "b": "'ll have finished",
+      "c": "be finishing",
+      "d": "to finish"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "There are still",
+      "citizens who feel unhappy about the changes made by the government."
+    ],
+    "variants": {
+      "a": "a little of",
+      "b": "quite many",
+      "c": "quite a few",
+      "d": "a great deal"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "",
+      "of people rely on public transport to get to work these days."
+    ],
+    "variants": {
+      "a": "Not many",
+      "b": "A little",
+      "c": "Quite a few",
+      "d": "Plenty"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "Dad says he",
+      "to cook pasta for dinner tonight."
+    ],
+    "variants": {
+      "a": "'s going",
+      "b": "was",
+      "c": "would",
+      "d": "might"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "The teacher wanted to know why",
+      "his homework last night."
+    ],
+    "variants": {
+      "a": "hadn't Tom done",
+      "b": "Tom hasn't done",
+      "c": "Tom hadn't done",
+      "d": "Tom isn't doing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "They told",
+      "start work the following Monday."
+    ],
+    "variants": {
+      "a": "me I can",
+      "b": "me",
+      "c": "I'll",
+      "d": "I could"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "If she",
+      "to be fluent in French, she could have applied for the job."
+    ],
+    "variants": {
+      "a": "hadn't needed",
+      "b": "needs",
+      "c": "doesn't need",
+      "d": "'s needed"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "They",
+      "here by now if the train had been on time."
+    ],
+    "variants": {
+      "a": "weren't",
+      "b": "would've be",
+      "c": "'d been",
+      "d": "'d have been"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "If I hadn't ignored my parents' advice, I",
+      "a great musician."
+    ],
+    "variants": {
+      "a": "would've become",
+      "b": "might've became",
+      "c": "had became",
+      "d": "hadn't become"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "",
+      "a world class athlete is a lot harder than it looks."
+    ],
+    "variants": {
+      "a": "For being",
+      "b": "To be",
+      "c": "To being",
+      "d": "Being"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "You'd",
+      "late for work again or you'll get fired."
+    ],
+    "variants": {
+      "a": "be better",
+      "b": "better not be",
+      "c": "better be",
+      "d": "better not being"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "She went to the doctor because she keeps",
+      "headaches."
+    ],
+    "variants": {
+      "a": "on to get",
+      "b": "to getting",
+      "c": "to get",
+      "d": "getting"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "She finally stopped",
+      "when the price of cigarettes went up again."
+    ],
+    "variants": {
+      "a": "to smoke",
+      "b": "the smoke",
+      "c": "smoking",
+      "d": "for to smoke"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "I'll never",
+      "snow for the first time."
+    ],
+    "variants": {
+      "a": "forget seeing",
+      "b": "forget to see",
+      "c": "forget to seeing",
+      "d": "to forget seeing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "Do you ever regret",
+      "Canada and returning to your home country?"
+    ],
+    "variants": {
+      "a": "to leaving",
+      "b": "leaving",
+      "c": "for leaving",
+      "d": "to leave"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "We",
+      "a serious accident when you drove through that red light!"
+    ],
+    "variants": {
+      "a": "have had",
+      "b": "can't have had",
+      "c": "must've had",
+      "d": "could've had"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "The neighbours",
+      "the music from your party. It was terribly loud. You should go and apologise to them."
+    ],
+    "variants": {
+      "a": "must've heard",
+      "b": "'ll hear",
+      "c": "couldn't hear",
+      "d": "can't have heard"
+    },
+    "answer": "a"
+  },
+  {
+    "question": [
+      "The gym",
+      "I go to work out is open twenty-four hours a day."
+    ],
+    "variants": {
+      "a": "when",
+      "b": "which",
+      "c": "that",
+      "d": "where"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "I wasn't keen on the restaurant",
+      "we went to last weekend."
+    ],
+    "variants": {
+      "a": "what",
+      "b": "-",
+      "c": "whose",
+      "d": "when"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "They're having lunch with his girlfriend's parents,",
+      "live in Brighton."
+    ],
+    "variants": {
+      "a": "they",
+      "b": "who",
+      "c": "that",
+      "d": "whom"
+    },
+    "answer": "b"
+  },
+  {
+    "question": [
+      "I almost fell over a pile of books",
+      "on the carpet."
+    ],
+    "variants": {
+      "a": "that are laid",
+      "b": "which lying",
+      "c": "lying",
+      "d": "who was lying"
+    },
+    "answer": "c"
+  },
+  {
+    "question": [
+      "A book",
+      "by a twelve-year-old girl has won a Ђ10,000 prize."
+    ],
+    "variants": {
+      "a": "wrote",
+      "b": "writing",
+      "c": "been written",
+      "d": "written"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "",
+      "people's names has always been something I've found incredibly difficult."
+    ],
+    "variants": {
+      "a": "To remember",
+      "b": "For remembering",
+      "c": "Remembering",
+      "d": "To remembering"
+    },
+    "answer": "c"
   }
 ]
