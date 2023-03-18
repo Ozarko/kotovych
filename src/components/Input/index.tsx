@@ -4,7 +4,6 @@ import "./input.scss";
 interface InputProps {
   type: string;
   name: string;
-  required: boolean;
   onChange?: (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => void;
@@ -16,7 +15,6 @@ interface InputProps {
 export const Input: FC<InputProps> = ({
   type,
   name,
-  required,
   inputType,
   onChange,
   value,
@@ -44,7 +42,6 @@ export const Input: FC<InputProps> = ({
         <input
           type={type}
           name={name}
-          required={required}
           className={inputClassName}
           value={value}
           onChange={onChange}

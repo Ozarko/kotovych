@@ -1,0 +1,61 @@
+@use "../../../styles/colors.scss" as colors;
+.modal-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  border-bottom: 0.1rem solid colors.$main-white;
+  & > div {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:first-child {
+      justify-content: flex-start;
+    }
+    &:last-child {
+      justify-content: flex-end;
+    }
+    & > h6 {
+      font-size: 2rem;
+      color: colors.$main-white;
+      font-weight: 200;
+      letter-spacing: 0.4rem;
+      text-transform: uppercase;
+    }
+  }
+  &-close {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 0.1rem;
+      background-color: white;
+    }
+    &::before {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    &::after {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    &:hover {
+      &::before,
+      &::after {
+        height: 0.2rem;
+      }
+    }
+  }
+}

@@ -14,9 +14,10 @@
     color: #fff;
     letter-spacing: 0.5rem;
     text-shadow: 0 0 0.1rem #fff;
-    text-align: left;
+    text-align: center;
     transition: all 1s ease;
     text-transform: uppercase;
+
   }
   & > p {
     flex: 1;
@@ -24,8 +25,19 @@
     color: #fff;
     letter-spacing: 0.3rem;
     text-shadow: 0 0 0.1rem #fff;
-    text-align: left;
+    text-align: center;
     transition: all 1s ease;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: variables.$bp-medium) {
+  .intro {
+    & > h2 {
+      font-size: variables.$fs-small;
+    }
+    & > p {
+      font-size: variables.$fs-small;
+    }
   }
 }

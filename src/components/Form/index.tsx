@@ -122,7 +122,6 @@ export const Form: FC<FormProps> = ({ onSubmit }) => {
           <Input
             type={"text"}
             name={form.placeHolders.name}
-            required={true}
             value={enteredName}
             onChange={handleNameChange}
             isError={errors.name}
@@ -130,7 +129,6 @@ export const Form: FC<FormProps> = ({ onSubmit }) => {
           <Input
             type={"phone"}
             name={form.placeHolders.phone}
-            required={true}
             value={enteredPhone}
             onChange={handlePhoneChange}
             isError={errors.phone}
@@ -140,7 +138,6 @@ export const Form: FC<FormProps> = ({ onSubmit }) => {
           <Input
             type={"phone"}
             name={form.placeHolders.message}
-            required={true}
             inputType={"textarea"}
             value={enteredMessage}
             onChange={handleMessageChange}
