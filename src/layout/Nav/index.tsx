@@ -1,14 +1,10 @@
-import React from "react";
 import { useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
 import { useTranslation } from "../../context/useTranslation";
 import { Languages } from "../../schemas/locale";
 import "./nav.scss";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const { pathname } = useLocation();
 
   const {
     currentLanguage,
