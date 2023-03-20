@@ -1,34 +1,19 @@
-import { useState } from "react";
+import { FC } from "react";
 import { ActionButton } from "../../../components/ActionButton";
 import { useTranslation } from "../../../context/useTranslation";
-import { useScrollBlock } from "../../../hooks/useScrollBlock";
-import { LevelCheck } from "../../LevelCheck";
 import "./check.scss";
 
-export const Check = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [blockScroll, allowScroll] = useScrollBlock();
+interface CheckProps {
+  handleModalStateChange: () => void;
+}
 
+export const Check: FC<CheckProps> = ({ handleModalStateChange }) => {
   const {
     schema: { check },
   } = useTranslation();
 
-  const handleModalStateChange = () => {
-    if (isModalOpen) {
-      allowScroll();
-    } else {
-      blockScroll();
-    }
-
-    setIsModalOpen(!isModalOpen);
-  };
-
   return (
     <>
-      <LevelCheck
-        isOpen={isModalOpen}
-        handleOpenState={handleModalStateChange}
-      />
       <section className="check" id="check">
         <div className="check-section">
           <p>{check.description}</p>

@@ -1,5 +1,4 @@
-import React from "react";
-import { ShowCase } from "../../../components/ShowCase";
+import { TextLine } from "../../../components/TextLine";
 import { useTranslation } from "../../../context/useTranslation";
 import "./about.scss";
 
@@ -8,10 +7,8 @@ export const About = () => {
 
   return (
     <section className="about" id="about">
-      <p className="about-description">
-        {about.description}
-      </p>
-      <ShowCase />
+      <p className="about-description">{about.description}</p>
+      <TextLine />
     </section>
   );
 };

@@ -22,7 +22,7 @@ interface TranslationStructure {
   };
   about: {
     description: string;
-    showCase: string[];
+    textLine: string[];
   };
   check: {
     description: string;
@@ -104,7 +104,7 @@ export const locale: Locale = {
     about: {
       description:
         "Привіт, мене звати Катерина, і я досвідчений викладач англійської мови з більш ніж 12-річним досвідом викладання. Моя пристрасть до викладання англійської походить з бажання допомогти студентам поліпшити їх мовні навички, неважливо чи вони тільки починають вивчати цю мову чи прагнуть розвиватися далі.",
-      showCase: [
+      textLine: [
         "Комунікація",
         "Можливості",
         "Подорожі",
@@ -186,7 +186,7 @@ export const locale: Locale = {
     about: {
       description:
         "Hi, my name is Katerina, and I'm an experienced English teacher with over 12 years of teaching experience. My passion for teaching English stems from a desire to help students improve their language skills, whether they are just beginning or looking to advance.",
-      showCase: [
+      textLine: [
         "Communication",
         "Opportunities",
         "Travel",

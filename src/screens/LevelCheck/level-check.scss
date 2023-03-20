@@ -31,7 +31,8 @@
 }
 
 .ReactModal__Content.ReactModal__Content--after-open {
-  background-color: colors.$main-dark !important;
+  background-color: transparent !important;
+  backdrop-filter: blur(5rem);
 }
 
 .ReactModal__Overlay--before-close {

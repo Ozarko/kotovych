@@ -4,6 +4,7 @@ import { WithChildren } from "../../types/general";
 import "./background.scss";
 
 export const Background: FC<WithChildren> = ({ children }) => {
+  
   const blobRef = useRef<HTMLDivElement>(null);
 
   const handleMouseMove = (event: any) => {

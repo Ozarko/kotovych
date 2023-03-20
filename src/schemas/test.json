@@ -27,7 +27,7 @@
   },
   {
     "question": [
-      "This is Sebastien. He's ",
+      "This is Sebastien. He's",
       "."
     ],
     "variants": {
@@ -153,7 +153,7 @@
       "c": "-",
       "d": "the"
     },
-    "answer": "b"
+    "answer": "c"
   },
   {
     "question": [
@@ -166,7 +166,7 @@
       "c": "brother",
       "d": "sisters"
     },
-    "answer": "c"
+    "answer": "a"
   },
   {
     "question": [
@@ -179,7 +179,7 @@
       "c": "often is",
       "d": "never"
     },
-    "answer": "d"
+    "answer": "b"
   },
   {
     "question": [
@@ -209,7 +209,7 @@
   },
   {
     "question": [
-      "What ",
+      "What",
       "your father look like?"
     ],
     "variants": {
@@ -322,7 +322,7 @@
       "c": "box",
       "d": "carton"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
     "question": [
@@ -400,7 +400,7 @@
       "c": "Was",
       "d": "Did"
     },
-    "answer": "a"
+    "answer": "d"
   },
   {
     "question": [
@@ -452,7 +452,7 @@
       "c": "shopping",
       "d": "shops"
     },
-    "answer": "b"
+    "answer": "c"
   },
   {
     "question": [
@@ -621,7 +621,7 @@
       "c": "should",
       "d": "'ll"
     },
-    "answer": "b"
+    "answer": "d"
   },
   {
     "question": [
@@ -647,7 +647,7 @@
       "c": "going to",
       "d": "should"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
     "question": [
@@ -691,7 +691,7 @@
   {
     "question": [
       "They",
-      "flown to India."
+      "fly to India."
     ],
     "variants": {
       "a": "didn't",
@@ -699,7 +699,7 @@
       "c": "haven't",
       "d": "has"
     },
-    "answer": "c"
+    "answer": "a"
   },
   {
     "question": [
@@ -712,7 +712,7 @@
       "c": "Did",
       "d": "Do"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
     "question": [
@@ -816,7 +816,7 @@
       "c": "What",
       "d": "Whose"
     },
-    "answer": "a"
+    "answer": "d"
   },
   {
     "question": [
@@ -829,7 +829,7 @@
       "c": "make",
       "d": "done"
     },
-    "answer": "a"
+    "answer": "d"
   },
   {
     "question": [
@@ -2613,5 +2613,3 @@
     "answer": "c"
   }
 ]
-
-
