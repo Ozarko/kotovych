@@ -3,11 +3,13 @@
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
+  z-index: 22;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000814;
+  background: transparent;
+  z-index: 22;
 }
 
 /* Handle */
@@ -18,6 +20,7 @@
     colors.$mediumpurple
   );
   border-radius: 10px;
+  z-index: 22;
 }
 
 /* Handle on hover */
@@ -27,6 +30,7 @@
     colors.$aquamarine,
     colors.$mediumpurple
   );
+  z-index: 22;
 }
 
 * {
@@ -43,6 +47,7 @@ html {
   overflow-x: hidden;
   background-color: colors.$main-dark;
   scroll-behavior: smooth;
+  padding-top: 9rem;
 }
 
 body {
