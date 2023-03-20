@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kotovych/static/css/main.3bb5e954.css",
-    "main.js": "/kotovych/static/js/main.6e546a46.js",
+    "main.css": "/kotovych/static/css/main.ba2c343e.css",
+    "main.js": "/kotovych/static/js/main.b9e922bf.js",
     "static/media/london.mp4": "/kotovych/static/media/london.b28cdb3ba45cb5e3165e.mp4",
     "static/media/MacPawFixel-VF.ttf": "/kotovych/static/media/MacPawFixel-VF.6264c98396cd6cd78380.ttf",
     "index.html": "/kotovych/index.html",
-    "main.3bb5e954.css.map": "/kotovych/static/css/main.3bb5e954.css.map",
-    "main.6e546a46.js.map": "/kotovych/static/js/main.6e546a46.js.map"
+    "main.ba2c343e.css.map": "/kotovych/static/css/main.ba2c343e.css.map",
+    "main.b9e922bf.js.map": "/kotovych/static/js/main.b9e922bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bb5e954.css",
-    "static/js/main.6e546a46.js"
+    "static/css/main.ba2c343e.css",
+    "static/js/main.b9e922bf.js"
   ]
 }
