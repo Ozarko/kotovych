@@ -32,7 +32,6 @@
         display: inline-block;
         letter-spacing: 0.5rem;
         padding: 0 0.5rem;
-        white-space: nowrap;
         line-height: 6rem;
       }
       &-value:empty {
@@ -89,6 +88,34 @@
     &-next {
       width: 50%;
       font-size: variables.$fs-medium;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .test-item {
+    padding: 2rem;
+    flex-wrap: wrap;
+    &-container {
+      &-question {
+        font-size: variables.$fs-medium;
+        & > span {
+          display: inline-block;
+        }
+      }
+      &-option {
+        flex-direction: column;
+        gap: 5rem;
+        margin: 8rem 0;
+        &-button {
+          height: 5rem;
+          font-size: variables.$fs-small;
+          justify-content: flex-start;
+        }
+      }
+      &-next {
+        width: 100%;
+      }
     }
   }
 }

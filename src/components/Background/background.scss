@@ -1,8 +1,9 @@
 @use "../../styles/colors.scss" as colors;
 .blob {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 30rem;
   width: 30rem;
   background: linear-gradient(to right, aquamarine, mediumpurple);
@@ -18,7 +19,7 @@
   height: 100%;
   width: 100%;
   z-index: -1;
-  backdrop-filter: blur(25rem);
+  backdrop-filter: blur(10rem);
 }
 
 @keyframes rotate {

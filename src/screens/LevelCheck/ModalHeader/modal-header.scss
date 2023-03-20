@@ -1,4 +1,7 @@
 @use "../../../styles/colors.scss" as colors;
+@use "../../../styles/variables.scss" as variables;
+
+
 .modal-header {
   width: 100%;
   display: flex;
@@ -26,6 +29,7 @@
       font-weight: 200;
       letter-spacing: 0.4rem;
       text-transform: uppercase;
+      white-space: nowrap;
     }
   }
   &-close {
@@ -55,6 +59,18 @@
       &::before,
       &::after {
         height: 0.2rem;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: variables.$bp-medium) {
+  .modal-header {
+    padding: 1rem;
+    & > div {
+      & > h6 {
+        font-size: variables.$fs-small;
       }
     }
   }

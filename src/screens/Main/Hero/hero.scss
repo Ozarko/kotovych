@@ -23,6 +23,7 @@
     transition: all 1s ease;
     letter-spacing: 0.4rem;
     text-shadow: 0 0 0.1rem #fff;
+    white-space: nowrap;
     &:hover {
       transform: scale(1.02);
     }
@@ -82,7 +83,7 @@
 @media screen and (max-width: variables.$bp-medium) {
   .hero {
     &-header {
-      font-size: 6rem;
+      font-size: 5rem;
     }
   }
 }

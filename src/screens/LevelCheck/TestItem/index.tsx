@@ -41,9 +41,9 @@ export const TestItem: FC<TestItemProps> = ({
     <div className="test-item">
       <div className="test-item-container">
         <h2 className="test-item-container-question">
-          <span>{question[0]}</span>
+          {question[0]}
           <span className="test-item-container-question-value">{selected.value}</span>
-          <span>{question[1]}</span>
+          {question[1]}
         </h2>
       </div>
       <div className="test-item-container">
