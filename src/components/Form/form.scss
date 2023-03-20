@@ -29,14 +29,14 @@
       flex: 1;
       display: flex;
       width: 100%;
-      gap: 3rem;
+      gap: 5rem;
     }
     &-textarea {
       flex: 1;
       display: flex;
       width: 100%;
       max-height: 10rem;
-      gap: 3rem;
+      gap: 5rem;
     }
     &-error {
       & > p {
@@ -45,6 +45,23 @@
         text-align: center;
         text-shadow: 0 0 0.1rem #fff;
         letter-spacing: 0.3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: variables.$bp-medium) {
+  .form {
+    width: 100%;
+    & > h3 {
+      font-size: variables.$fs-small;
+    }
+    &-container {
+      &-inputs {
+        flex-direction: column;
+      }
+      &-textarea {
+        flex-direction: column;
       }
     }
   }

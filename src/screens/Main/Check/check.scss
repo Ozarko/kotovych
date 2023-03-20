@@ -33,5 +33,10 @@
 @media screen and (max-width: variables.$bp-medium) {
   .check {
     flex-direction: column;
+    &-section {
+      & > p {
+        font-size: variables.$fs-small;
+      }
+    }
   }
 }

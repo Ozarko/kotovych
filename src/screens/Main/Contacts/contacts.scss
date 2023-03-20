@@ -53,13 +53,21 @@
 @media screen and (max-width: variables.$bp-medium) {
   .contacts {
     &-description {
-      width: 100%;
+      width: 80%;
+      & > p {
+        font-size: variables.$fs-small;
+      }
     }
     &-social {
-      width: 100%;
+      align-items: center;
+      justify-content: center;
+      gap: 6rem;
+      & > a {
+        font-size: variables.$fs-small;
+      }
     }
-  }
-  .form {
-    width: 100%;
+    &-separator > p {
+      font-size: variables.$fs-small;
+    }
   }
 }
