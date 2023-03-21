@@ -1,20 +1,23 @@
-import React, { FC } from "react";
 import { useTests } from "../../../context/useTests";
 import "./modal-header.scss";
 
-interface ModalHeaderProps {
-  onClose: () => void;
-}
-
-export const ModalHeader: FC<ModalHeaderProps> = ({ onClose }) => {
-  const { currentQuestion, questions } = useTests();
+export const ModalHeader = () => {
+  const {
+    currentQuestion,
+    questions,
+    isTestStarted,
+    handleModalStateChange,
+    showCancel,
+  } = useTests();
 
   const testLength = questions.length || 0;
+
+  const handleClose = () => handleModalStateChange();
 
   return (
     <div className="modal-header">
       <div>
-        {currentQuestion && testLength && (
+        {isTestStarted && (
           <h6>
             {currentQuestion}/{testLength}
           </h6>
@@ -24,7 +27,9 @@ export const ModalHeader: FC<ModalHeaderProps> = ({ onClose }) => {
         <h6>English Test</h6>
       </div>
       <div>
-        <button className="modal-header-close" onClick={onClose} />
+        {!showCancel && (
+          <button className="modal-header-close" onClick={handleClose} />
+        )}
       </div>
     </div>
   );

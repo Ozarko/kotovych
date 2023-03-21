@@ -1,16 +1,14 @@
-import { FC } from "react";
 import { ActionButton } from "../../../components/ActionButton";
+import { useTests } from "../../../context/useTests";
 import { useTranslation } from "../../../context/useTranslation";
 import "./check.scss";
 
-interface CheckProps {
-  handleModalStateChange: () => void;
-}
-
-export const Check: FC<CheckProps> = ({ handleModalStateChange }) => {
+export const Check = () => {
   const {
     schema: { check },
   } = useTranslation();
+
+  const { handleModalStateChange } = useTests();
 
   return (
     <>

@@ -25,6 +25,7 @@ export const TestItem: FC<TestItemProps> = ({
   variants,
   handleAnswerOptionClick,
 }) => {
+  const [showError, setShowError] = useState<boolean>(false);
   const [selected, setSelected] = useState<SelectedItem>(DEFAULT_SELECTED);
   const variantsArray = Object.entries(variants);
 
@@ -33,6 +34,11 @@ export const TestItem: FC<TestItemProps> = ({
   };
 
   const handleNext = () => {
+    if (!selected.variant) {
+      setShowError(true);
+      return;
+    }
+    if(showError) setShowError(false)
     handleAnswerOptionClick(selected.value);
     setSelected(DEFAULT_SELECTED);
   };
@@ -42,7 +48,13 @@ export const TestItem: FC<TestItemProps> = ({
       <div className="test-item-container">
         <h2 className="test-item-container-question">
           {question[0]}
-          <span className="test-item-container-question-value">{selected.value}</span>
+          <span
+            className={`test-item-container-question-value ${
+              selected.value[0] === "'" ? "" : "space"
+            }`}
+          >
+            {selected.value}
+          </span>
           {question[1]}
         </h2>
       </div>
@@ -65,8 +77,15 @@ export const TestItem: FC<TestItemProps> = ({
         </div>
       </div>
       <div className="test-item-container">
+        <div className="test-item-container-error">
+          {showError && (
+            <p className="test-item-container-error">
+              Please choose one of the test options
+            </p>
+          )}
+        </div>
         <div className="test-item-container-next">
-          <ActionButton label={"next"} onClick={handleNext} disabled={!selected.value} />
+          <ActionButton label={"next"} onClick={handleNext} />
         </div>
       </div>
     </div>

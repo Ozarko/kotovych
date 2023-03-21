@@ -53,7 +53,7 @@
 @media screen and (max-width: variables.$bp-medium) {
   .contacts {
     &-description {
-      width: 80%;
+      width: 100%;
       & > p {
         font-size: variables.$fs-small;
       }

@@ -1,25 +1,29 @@
-import { useState } from "react";
+import { FC, useState } from "react";
 import { useTests } from "../../../context/useTests";
+import { Cancel } from "../Cancel";
 import { Intro } from "../Intro";
 import { Result } from "../Result";
 import { TestItem } from "../TestItem";
 
 export const ModalBody = () => {
-  const [testIsStarted, setTestIsStarted] = useState(false);
+  const {
+    currentQuestion,
+    questions,
+    handleAnswerOptionClick,
+    showScore,
+    isTestStarted,
+    handleTestsState,
+    showCancel,
+  } = useTests();
 
-  const {currentQuestion, questions, handleAnswerOptionClick, showScore} = useTests();
-
-  const handleTestsStart = () => {
-    setTestIsStarted(true);
-  }
-
+  if (showCancel) return <Cancel />;
   if (showScore) return <Result />;
-  if (!testIsStarted) return <Intro onTestsStart={handleTestsStart} />;
+  if (!isTestStarted) return <Intro onTestsStart={handleTestsState} />;
 
   return (
     <TestItem
-      question={questions[currentQuestion - 1].question}
-      variants={questions[currentQuestion - 1].variants}
+      question={questions[currentQuestion - 1]?.question}
+      variants={questions[currentQuestion - 1]?.variants}
       handleAnswerOptionClick={handleAnswerOptionClick}
     />
   );

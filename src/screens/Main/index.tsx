@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useScrollBlock } from "../../hooks/useScrollBlock";
+import { TestContextProvider, useTests } from "../../context/useTests";
 import { LevelCheck } from "../LevelCheck";
 import { About } from "./About";
 import { Check } from "./Check";
@@ -8,32 +7,17 @@ import { Hero } from "./Hero";
 import "./main.scss";
 
 const Main = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [blockScroll, allowScroll] = useScrollBlock();
-
-  const handleModalStateChange = () => {
-    if (isModalOpen) {
-      allowScroll();
-    } else {
-      blockScroll();
-    }
-
-    setIsModalOpen(!isModalOpen);
-  };
-
+  const { isModalOpen } = useTests();
   return (
-    <>
-      <LevelCheck
-        isOpen={isModalOpen}
-        handleOpenState={handleModalStateChange}
-      />
+    <TestContextProvider>
+      <LevelCheck />
       <div className={`main ${isModalOpen ? "hidden" : ""}`}>
         <Hero />
         <About />
-        <Check handleModalStateChange={handleModalStateChange} />
+        <Check />
         <Contacts />
       </div>
-    </>
+    </TestContextProvider>
   );
 };
 

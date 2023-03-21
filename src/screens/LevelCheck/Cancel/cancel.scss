@@ -1,0 +1,38 @@
+@use "../../../styles/colors.scss" as colors;
+@use "../../../styles/variables.scss" as variables;
+
+.cancel {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  flex-direction: column;
+  & > p {
+    font-size: variables.$fs-medium;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 0.1rem #fff;
+    letter-spacing: 0.3rem;
+  }
+  &-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: variables.$bp-medium) {
+  .cancel {
+    & > p {
+      font-size: variables.$fs-small;
+    }
+    &-buttons {
+      flex-direction: column;
+    }
+  }
+}

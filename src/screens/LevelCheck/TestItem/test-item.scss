@@ -12,11 +12,11 @@
   &-container {
     flex: 1;
     width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 5rem;
     &-question {
       display: flex;
       align-items: center;
@@ -26,15 +26,15 @@
       font-size: variables.$fs-focus;
       font-weight: 300;
       color: #fff;
-      gap: 2rem;
       text-align: center;
       & > span {
-        display: inline-block;
-        letter-spacing: 0.5rem;
-        padding: 0 0.5rem;
-        line-height: 6rem;
+        margin-right: 1rem;
+      }
+      &-value.space {
+        margin: 0 1rem;
       }
       &-value:empty {
+        margin: 0 2rem;
         &::before {
           content: "";
           display: inline-block;
@@ -89,14 +89,19 @@
       width: 50%;
       font-size: variables.$fs-medium;
     }
+    &-error {
+      font-size: variables.$fs-medium;
+      color: colors.$mediumpurple;
+    }
   }
 }
 
 @media screen and (max-width: 768px) {
   .test-item {
-    padding: 2rem;
+    padding: 0;
     flex-wrap: wrap;
     &-container {
+      gap: 2rem;
       &-question {
         font-size: variables.$fs-medium;
         & > span {
@@ -105,8 +110,8 @@
       }
       &-option {
         flex-direction: column;
-        gap: 5rem;
-        margin: 8rem 0;
+        gap: 3rem;
+        margin: 3rem 0;
         &-button {
           height: 5rem;
           font-size: variables.$fs-small;
@@ -115,6 +120,9 @@
       }
       &-next {
         width: 100%;
+      }
+      &-error {
+        font-size: variables.$fs-small;
       }
     }
   }

@@ -4,19 +4,16 @@ import { WithChildren } from "../../types/general";
 import "./background.scss";
 
 export const Background: FC<WithChildren> = ({ children }) => {
-
   const blobRef = useRef<HTMLDivElement>(null);
 
   const handleMouseMove = (event: any) => {
-    if (window.innerWidth > 768) {
-      blobRef.current?.animate(
-        {
-          left: `${event.clientX - 150}px`,
-          top: `${event.clientY - 150}px`,
-        },
-        { duration: 3000, fill: "forwards" }
-      );
-    }
+    blobRef.current?.animate(
+      {
+        left: `${event.clientX - 150}px`,
+        top: `${event.clientY - 150}px`,
+      },
+      { duration: 3000, fill: "forwards" }
+    );
   };
 
   return (

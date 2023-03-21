@@ -1,37 +1,28 @@
-import React, { FC } from "react";
 import Modal from "react-modal";
 
 import { ModalHeader } from "./ModalHeader";
 import { ModalBody } from "./ModalBody";
-import { TestContextProvider } from "../../context/useTests";
+import { useTests } from "../../context/useTests";
 
 import "./level-check.scss";
 
-interface LevelCheckProps {
-  isOpen: boolean;
-  handleOpenState: () => void;
-}
+export const LevelCheck = () => {
+  const { isModalOpen, handleModalStateChange } = useTests();
 
-export const LevelCheck: FC<LevelCheckProps> = ({
-  isOpen,
-  handleOpenState,
-}) => {
+  const handleModalClose = () => handleModalStateChange();
+
   return (
     <Modal
-      isOpen={isOpen}
-      onRequestClose={handleOpenState}
+      isOpen={isModalOpen}
+      onRequestClose={handleModalClose}
       closeTimeoutMS={500}
     >
-      <TestContextProvider>
-        <section className="level-check">
-          <ModalHeader
-            onClose={handleOpenState}
-          />
-          <div className="level-check-container">
-            <ModalBody />
-          </div>
-        </section>
-      </TestContextProvider>
+      <section className="level-check">
+        <ModalHeader />
+        <div className="level-check-container">
+          <ModalBody />
+        </div>
+      </section>
     </Modal>
   );
 };
