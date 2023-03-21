@@ -1,4 +1,3 @@
-import { FC, useState } from "react";
 import { useTests } from "../../../context/useTests";
 import { Cancel } from "../Cancel";
 import { Intro } from "../Intro";

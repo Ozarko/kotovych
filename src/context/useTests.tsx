@@ -11,14 +11,27 @@ export enum TestCancelActions {
   RESET = "RESET",
 }
 
+export type AnswerType = "a" | "b" | "c" | "d";
+
+export interface QuestionItem {
+  question: string[];
+  variants: {
+    a: string;
+    b: string;
+    c: string;
+    d: string;
+  };
+  answer: AnswerType;
+}
+
 export interface TestContext {
   isModalOpen: boolean;
   currentQuestion: number;
   showScore: boolean;
   score: number;
-  questions: any;
-  userAnswers: string[];
-  handleAnswerOptionClick: (answer: string) => void;
+  questions: QuestionItem[];
+  userAnswers: AnswerType[];
+  handleAnswerOptionClick: (answer: AnswerType) => void;
   isTestStarted: boolean;
   handleTestsState: () => void;
   showCancel: boolean;
@@ -30,9 +43,9 @@ const DEFAULT_CONTEXT_STATE: TestContext = {
   currentQuestion: 1,
   showScore: false,
   score: 0,
-  questions,
-  userAnswers: [],
-  handleAnswerOptionClick: (answer: string) => {},
+  questions: questions as QuestionItem[],
+  userAnswers: [] as AnswerType[],
+  handleAnswerOptionClick: (answer: AnswerType) => {},
   isTestStarted: false,
   handleTestsState: () => {},
   showCancel: false,
@@ -59,7 +72,7 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
   );
   const [score, setScore] = useState(localStorageValue.score);
   const [showScore, setShowScore] = useState(false);
-  const [userAnswers, setUserAnswers] = useState<string[]>(
+  const [userAnswers, setUserAnswers] = useState<AnswerType[]>(
     localStorageValue.userAnswers
   );
 
@@ -107,7 +120,7 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
         handleModalClose();
         handleSave();
         setShowCancel(false);
-        return
+        return;
       case TestCancelActions.EXIT:
         handleModalClose();
         handleResetClick();
@@ -129,7 +142,7 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
     return handleModalClose();
   };
 
-  const handleAnswerOptionClick = (userAnswer: string) => {
+  const handleAnswerOptionClick = (userAnswer: AnswerType) => {
     setUserAnswers((prev) => [...prev, userAnswer]);
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
@@ -149,7 +162,7 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
         currentQuestion,
         showScore,
         score,
-        questions,
+        questions: questions as QuestionItem[],
         userAnswers,
         handleAnswerOptionClick,
         isTestStarted,

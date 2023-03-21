@@ -1,17 +1,18 @@
 import { FC, useState } from "react";
 import { ActionButton } from "../../../components/ActionButton";
+import { AnswerType } from "../../../context/useTests";
 import "./test-item.scss";
 
 interface TestItemProps {
   question: string[];
   variants: {
-    [key: string]: string;
+    [key in AnswerType]: string;
   };
-  handleAnswerOptionClick: (variant: string) => void;
+  handleAnswerOptionClick: (variant: AnswerType) => void;
 }
 
 interface SelectedItem {
-  variant: string;
+  variant: AnswerType | "";
   value: string;
 }
 
@@ -29,7 +30,7 @@ export const TestItem: FC<TestItemProps> = ({
   const [selected, setSelected] = useState<SelectedItem>(DEFAULT_SELECTED);
   const variantsArray = Object.entries(variants);
 
-  const handleSelect = (variant: string, value: string) => {
+  const handleSelect = (variant: AnswerType, value: string) => {
     setSelected({ variant, value });
   };
 
@@ -38,8 +39,8 @@ export const TestItem: FC<TestItemProps> = ({
       setShowError(true);
       return;
     }
-    if(showError) setShowError(false)
-    handleAnswerOptionClick(selected.value);
+    if (showError) setShowError(false);
+    if (selected.value) handleAnswerOptionClick(selected.variant);
     setSelected(DEFAULT_SELECTED);
   };
 
@@ -50,7 +51,7 @@ export const TestItem: FC<TestItemProps> = ({
           {question[0]}
           <span
             className={`test-item-container-question-value ${
-              selected.value[0] === "'" ? "" : "space"
+              selected.value && selected.value[0] === "'" ? "" : "space"
             }`}
           >
             {selected.value}
@@ -62,7 +63,7 @@ export const TestItem: FC<TestItemProps> = ({
         <div className="test-item-container-option">
           {variantsArray.map(([key, value]) => {
             const isSelected = selected.variant === key ? " selected" : "";
-            const onSelect = () => handleSelect(key, value);
+            const onSelect = () => handleSelect(key as AnswerType, value);
             return (
               <button
                 onClick={onSelect}
