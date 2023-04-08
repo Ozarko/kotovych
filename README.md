@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# React App для викладачки англійської мови Катерини Котович
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Цей проект був створений для допомоги викладачам англійської мови у проведенні онлайн-уроків.
 
-## Available Scripts
+## Встановлення
 
-In the project directory, you can run:
+Для запуску додатку потрібно виконати наступні команди:
 
-### `yarn start`
+### `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Встановлює всі необхідні залежності для додатку.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `npm start`
 
-### `yarn test`
+Запускає додаток у режимі розробки.\
+Для перегляду додатку відкрийте [http://localhost:3000](http://localhost:3000) у своєму браузері.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Сторінка автоматично перезавантажується при зміні файлів у директорії `/src`.\
+Ви також побачите будь-які помилки лінтингу у консолі.
 
-### `yarn build`
+### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Збирає додаток для продакшну в директорію `build`.\
+Оптимізує додаток для кращої продуктивності.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Для більш детальної інформації про деплой на сервері, дивіться [Create React App deployment](https://create-react-app.dev/docs/deployment/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Функціонал
 
-### `yarn eject`
+React App містить наступні функції:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Вивчення та практика англійської мови за темами.
+- Тестування рівня володіння англійською мовою.
+- Доступ до навчальних матеріалів та вправ для самостійного навчання.
+- Можливість ведення власного навчального журналу.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Допомога
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Якщо у Вас є якісь питання або пропозиції з приводу розробки додатку, будь ласка, зверніться до викладачки англійської мови Катерини Котович.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Ліцензія
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Цей проект розповсюджується за ліцензією MIT. Більш детальну інформацію можна знайти в файлі [LICENSE](./LICENSE).

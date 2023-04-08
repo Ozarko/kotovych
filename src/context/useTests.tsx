@@ -1,6 +1,6 @@
 import { createContext, FC, useState, useContext } from "react";
 import { WithChildren } from "../types/general";
-import questions from "../schemas/tests.json";
+import questions from "../schemas/test.json";
 import { useScrollBlock } from "../hooks/useScrollBlock";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { useTelegramBot } from "../hooks/useTelegramBot";
