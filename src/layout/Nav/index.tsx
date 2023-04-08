@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "../../context/useTranslation";
-import { Languages } from "../../schemas/locale";
+import { Languages } from "../../locale";
 import "./nav.scss";
 
 const Nav = () => {

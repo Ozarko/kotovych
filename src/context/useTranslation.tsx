@@ -1,6 +1,6 @@
 import React, { createContext, FC, useContext, useState } from "react";
 import { WithChildren } from "../types/general";
-import { Languages, locale } from "../schemas/locale";
+import { Languages, locale } from "../locale";
 
 const defaultTranslation = {
   currentLanguage: Languages.UA,

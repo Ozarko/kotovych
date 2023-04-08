@@ -1,43 +1,20 @@
 import { ActionButton } from "../../../components/ActionButton";
-import { QuestionItem, useTests } from "../../../context/useTests";
+import { useTests } from "../../../context/useTests";
 import "./result.scss";
-
-interface ResultType {
-  index: number;
-  userAnswer: string;
-  correctAnswer: string;
-  question: string[];
-}
+import { getResultLevel } from "../../../utils/getResultLevel";
 
 export const Result = () => {
-  const { questions, userAnswers, handleResetClick } = useTests();
-  const result = questions.reduce(
-    (acc: ResultType[], testItem: QuestionItem, index: number) => {
-      if (testItem.answer !== userAnswers[index]) {
-        const correctAnswer = testItem.variants[testItem.answer];
-        const userAnswer = testItem.variants[userAnswers[index]];
-        return [
-          ...acc,
-          {
-            index: index + 1,
-            question: testItem.question,
-            userAnswer,
-            correctAnswer,
-          },
-        ];
-      }
-      return acc;
-    },
-    []
-  );
+  const { handleResetClick, userInfo, score, result } = useTests();
+
+  const level = getResultLevel(score);
 
   return (
     <div className="result">
-      <h2>Congratulations</h2>
+      <h2>Congratulations {userInfo.name} !</h2>
       <p>
         on completing the English language proficiency test on our website! Your
         results have been received and analyzed. Based on your answers, you have
-        been placed in the following proficiency level: [insert level here]
+        been placed in the following proficiency level: {level}
       </p>
       <div className="result-list">
         <h3>Incorrect answers</h3>

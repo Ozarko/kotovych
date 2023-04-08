@@ -58,7 +58,7 @@ export const TestForm: FC<TestFormProps> = ({ onSubmit }) => {
 
   const handleStartClick = () => {
     if (!isTouched.name || !isTouched.phone)
-      setIsTouched({ name: true, phone: true });
+     return setIsTouched({ name: true, phone: true });
     if (!name || !phone || formErrors) return;
     setUserInfo({
       name,

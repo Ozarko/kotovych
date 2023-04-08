@@ -1,8 +1,10 @@
 import { createContext, FC, useState, useContext } from "react";
 import { WithChildren } from "../types/general";
-import questions from "../schemas/test.json";
+import questions from "../schemas/tests.json";
 import { useScrollBlock } from "../hooks/useScrollBlock";
 import useLocalStorage from "../hooks/useLocalStorage";
+import { useTelegramBot } from "../hooks/useTelegramBot";
+import { getResultLevel } from "../utils/getResultLevel";
 
 export enum TestCancelActions {
   CANCEL = "CANCEL",
@@ -24,6 +26,13 @@ export interface QuestionItem {
   answer: AnswerType;
 }
 
+interface ResultType {
+  index: number;
+  userAnswer: string;
+  correctAnswer: string;
+  question: string[];
+}
+
 export interface TestContext {
   isModalOpen: boolean;
   currentQuestion: number;
@@ -42,6 +51,7 @@ export interface TestContext {
     phone: string;
   };
   setUserInfo: (userInfo: { name: string; phone: string }) => void;
+  result: ResultType[];
 }
 
 const DEFAULT_CONTEXT_STATE: TestContext = {
@@ -62,6 +72,7 @@ const DEFAULT_CONTEXT_STATE: TestContext = {
     phone: "",
   },
   setUserInfo: (userInfo: { name: string; phone: string }) => {},
+  result: [] as ResultType[],
 };
 
 const DEFAULT_LOCAL_STORAGE_VALUE = {
@@ -74,6 +85,8 @@ const DEFAULT_LOCAL_STORAGE_VALUE = {
 const TestsContext = createContext(DEFAULT_CONTEXT_STATE);
 
 export const TestContextProvider: FC<WithChildren> = ({ children }) => {
+  const [result, setResult] = useState<ResultType[]>([]);
+  const { sentTestResultMutation } = useTelegramBot();
   const [localStorageValue, setLocalStorageValue] = useLocalStorage(
     "userAnswers",
     DEFAULT_LOCAL_STORAGE_VALUE
@@ -113,6 +126,28 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
     setUserAnswers([]);
     setShowCancel(false);
     setLocalStorageValue(DEFAULT_LOCAL_STORAGE_VALUE);
+  };
+
+  const getResult = () => {
+    return (questions as QuestionItem[]).reduce(
+      (acc: ResultType[], testItem: QuestionItem, index: number) => {
+        if (testItem.answer !== userAnswers[index]) {
+          const correctAnswer = testItem.variants[testItem.answer];
+          const userAnswer = testItem.variants[userAnswers[index]];
+          return [
+            ...acc,
+            {
+              index: index + 1,
+              question: testItem.question,
+              userAnswer,
+              correctAnswer,
+            },
+          ];
+        }
+        return acc;
+      },
+      []
+    );
   };
 
   const handleSave = () => {
@@ -161,7 +196,16 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
     } else {
+      const result = getResult();
       setShowScore(true);
+      setResult(result);
+      sentTestResultMutation({
+        name: userInfo.name,
+        phone: userInfo.phone,
+        score,
+        level: getResultLevel(score),
+        result,
+      });
     }
   };
 
@@ -186,6 +230,7 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
         handleResetClick,
         userInfo,
         setUserInfo,
+        result,
       }}
     >
       {children}

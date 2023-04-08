@@ -18,15 +18,12 @@
     flex-direction: column;
     gap: 5rem;
     &-question {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      flex: 1;
-      font-size: variables.$fs-focus;
+      display: inline-block;
+      font-size: variables.$fs-medium;
       font-weight: 300;
       color: #fff;
       text-align: center;
+      letter-spacing: 0.3rem;
       & > span {
         margin-right: 1rem;
       }
@@ -58,7 +55,8 @@
         height: 10rem;
         width: 100%;
         color: #fff;
-        font-size: variables.$fs-medium;
+        font-size: variables.$fs-small;
+        white-space: nowrap;
         gap: 2rem;
         & > span {
           display: block;
