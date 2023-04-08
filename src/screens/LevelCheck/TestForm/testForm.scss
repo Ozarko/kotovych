@@ -1,0 +1,56 @@
+@use "../../../styles/variables.scss" as variables;
+
+.test-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-wrapper {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 70vw;
+    gap: 5rem;
+  }
+
+  & > h3 {
+    font-size: variables.$fs-medium;
+    color: #fff;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 0 0.1rem #fff;
+    text-align: center;
+    transition: all 1s ease;
+    text-align: center;
+  }
+  &-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  &-errors {
+    & > p {
+      font-size: variables.$fs-extra-small;
+      color: #fff;
+      text-align: left;
+      text-shadow: 0 0 0.1rem #fff;
+      letter-spacing: 0.3rem;
+    }
+  }
+}
+
+@media screen and (max-width: variables.$bp-medium) {
+  .test-form {
+    &-wrapper {
+      max-width: 100vw;
+    }
+    & > h3 {
+      font-size: variables.$fs-small;
+    }
+    &-inputs {
+      flex-direction: column;
+    }
+  }
+}

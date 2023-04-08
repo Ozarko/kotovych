@@ -54,7 +54,19 @@ interface TranslationStructure {
   levelCheck: {
     title: string;
     description: string;
-    actionButton: string;
+    startTest: string;
+    form: {
+      title: string;
+      actionButton: string;
+      placeHolders: {
+        name: string;
+        phone: string;
+      };
+      errors: {
+        name: string;
+        phone: string;
+      };
+    };
   };
 }
 
@@ -145,7 +157,19 @@ export const locale: Locale = {
       title: "Тест на знання англійської мови",
       description:
         'Ласкаво прошу до тесту на знання англійської мови. Цей тест призначений для вимірювання вашого рівня знання та вмінь англійської мови. Він складається з запитань типу "багато варіантів відповіді", які охоплюють різні аспекти мови, такі як граматика, словниковий запас, та розуміння прочитаного.',
-      actionButton: "Розпочати тест",
+      startTest: "Розпочати тест",
+      form: {
+        title: "Для того щоб розпочати тест введіть ваші дані",
+        actionButton: "Надіслати",
+        placeHolders: {
+          name: "Ім'я",
+          phone: "Телефон",
+        },
+        errors: {
+          name: "Введіть ім'я",
+          phone: "Введіть телефон у форматі 0ХХХХХХХХХ",
+        },
+      },
     },
   },
   en: {
@@ -227,7 +251,19 @@ export const locale: Locale = {
       title: "English Level Check",
       description:
         "Welcome to the English proficiency test. This test is designed to measure your level of English knowledge and skills. It consists of multiple choice questions covering various areas of the language such as grammar, vocabulary, reading comprehension and listening.",
-      actionButton: "Start Test",
+      startTest: "Start Test",
+      form: {
+        title: "To start the test, please enter your details",
+        actionButton: "Send",
+        placeHolders: {
+          name: "Name",
+          phone: "Phone",
+        },
+        errors: {
+          name: "Enter your name",
+          phone: "Enter phone number in format 0ХХХХХХХХХ",
+        },
+      },
     },
   },
 };

@@ -1,11 +1,11 @@
-import React, { FC } from "react";
+import React, { ChangeEvent, FC } from "react";
 import "./input.scss";
 
 interface InputProps {
   type: string;
   name: string;
   onChange?: (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    event: ChangeEvent<any>
   ) => void;
   value: string;
   inputType?: string;

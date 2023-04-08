@@ -36,11 +36,17 @@ export interface TestContext {
   handleTestsState: () => void;
   showCancel: boolean;
   handleModalStateChange: (actions?: TestCancelActions) => void;
+  handleResetClick: () => void;
+  userInfo: {
+    name: string;
+    phone: string;
+  };
+  setUserInfo: (userInfo: { name: string; phone: string }) => void;
 }
 
 const DEFAULT_CONTEXT_STATE: TestContext = {
   isModalOpen: false,
-  currentQuestion: 1,
+  currentQuestion: 0,
   showScore: false,
   score: 0,
   questions: questions as QuestionItem[],
@@ -50,6 +56,19 @@ const DEFAULT_CONTEXT_STATE: TestContext = {
   handleTestsState: () => {},
   showCancel: false,
   handleModalStateChange: () => {},
+  handleResetClick: () => {},
+  userInfo: {
+    name: "",
+    phone: "",
+  },
+  setUserInfo: (userInfo: { name: string; phone: string }) => {},
+};
+
+const DEFAULT_LOCAL_STORAGE_VALUE = {
+  userAnswers: DEFAULT_CONTEXT_STATE.userAnswers,
+  currentQuestion: DEFAULT_CONTEXT_STATE.currentQuestion,
+  score: DEFAULT_CONTEXT_STATE.score,
+  userInfo: DEFAULT_CONTEXT_STATE.userInfo,
 };
 
 const TestsContext = createContext(DEFAULT_CONTEXT_STATE);
@@ -57,13 +76,10 @@ const TestsContext = createContext(DEFAULT_CONTEXT_STATE);
 export const TestContextProvider: FC<WithChildren> = ({ children }) => {
   const [localStorageValue, setLocalStorageValue] = useLocalStorage(
     "userAnswers",
-    {
-      userAnswers: DEFAULT_CONTEXT_STATE.userAnswers,
-      currentQuestion: DEFAULT_CONTEXT_STATE.currentQuestion,
-      score: DEFAULT_CONTEXT_STATE.score,
-    }
+    DEFAULT_LOCAL_STORAGE_VALUE
   );
 
+  const [userInfo, setUserInfo] = useState(localStorageValue.userInfo);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isTestStarted, setIsTestStarted] = useState(false);
   const [showCancel, setShowCancel] = useState(false);
@@ -91,16 +107,12 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
 
   const handleResetClick = () => {
     setIsTestStarted(false);
-    setCurrentQuestion(1);
+    setCurrentQuestion(0);
     setScore(0);
     setShowScore(false);
     setUserAnswers([]);
     setShowCancel(false);
-    setLocalStorageValue({
-      userAnswers: [],
-      currentQuestion: 1,
-      score: 0,
-    });
+    setLocalStorageValue(DEFAULT_LOCAL_STORAGE_VALUE);
   };
 
   const handleSave = () => {
@@ -108,6 +120,7 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
       userAnswers,
       currentQuestion,
       score,
+      userInfo,
     });
   };
 
@@ -170,6 +183,9 @@ export const TestContextProvider: FC<WithChildren> = ({ children }) => {
         showCancel,
         handleModalStateChange,
         isModalOpen,
+        handleResetClick,
+        userInfo,
+        setUserInfo,
       }}
     >
       {children}

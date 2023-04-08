@@ -19,7 +19,7 @@ export const ModalHeader = () => {
       <div>
         {isTestStarted && (
           <h6>
-            {currentQuestion}/{testLength}
+            {currentQuestion + 1}/{testLength}
           </h6>
         )}
       </div>

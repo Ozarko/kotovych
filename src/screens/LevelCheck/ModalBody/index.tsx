@@ -21,8 +21,8 @@ export const ModalBody = () => {
 
   return (
     <TestItem
-      question={questions[currentQuestion - 1]?.question}
-      variants={questions[currentQuestion - 1]?.variants}
+      question={questions[currentQuestion].question}
+      variants={questions[currentQuestion]?.variants}
       handleAnswerOptionClick={handleAnswerOptionClick}
     />
   );

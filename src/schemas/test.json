@@ -918,14 +918,14 @@
       "a": "since",
       "b": "the",
       "c": "at",
-      "d": "-"
+      "d": "_"
     },
     "answer": "a"
   },
   {
     "question": [
       "I don't think I",
-      " the job. I didn't answer all their questions in the interview very well."
+      "get the job. I didn't answer all their questions in the interview very well."
     ],
     "variants": {
       "a": "'ll",
@@ -972,7 +972,7 @@
       "c": "knows",
       "d": "known"
     },
-    "answer": "a"
+    "answer": "d"
   },
   {
     "question": [
@@ -985,7 +985,7 @@
       "c": "used",
       "d": "didn't used to"
     },
-    "answer": "a"
+    "answer": "d"
   },
   {
     "question": [
@@ -998,7 +998,7 @@
       "c": "used live",
       "d": "used to living"
     },
-    "answer": "b"
+    "answer": "a"
   },
   {
     "question": [
@@ -1029,7 +1029,7 @@
   {
     "question": [
       "He married the girl",
-      " used to sit next to him at school."
+      "used to sit next to him at school."
     ],
     "variants": {
       "a": "who",
@@ -1042,7 +1042,7 @@
   {
     "question": [
       "Children spend",
-      " hours watching TV."
+      "hours watching TV."
     ],
     "variants": {
       "a": "too many",
@@ -1050,7 +1050,7 @@
       "c": "very",
       "d": "too much"
     },
-    "answer": "d"
+    "answer": "a"
   },
   {
     "question": [
@@ -1112,10 +1112,10 @@
     "variants": {
       "a": "more",
       "b": "most",
-      "c": "-",
+      "c": "_",
       "d": "the most"
     },
-    "answer": "a"
+    "answer": "c"
   },
   {
     "question": [
@@ -1123,7 +1123,7 @@
       "Africa."
     ],
     "variants": {
-      "a": "-",
+      "a": "_",
       "b": "a",
       "c": "an",
       "d": "the"
@@ -1136,7 +1136,7 @@
       "south of France."
     ],
     "variants": {
-      "a": "-",
+      "a": "_",
       "b": "a",
       "c": "an",
       "d": "the"
@@ -1154,7 +1154,7 @@
       "c": "was send",
       "d": "was sent"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
     "question": [
@@ -1193,7 +1193,7 @@
       "c": "yet",
       "d": "'s just"
     },
-    "answer": "b"
+    "answer": "d"
   },
   {
     "question": [
@@ -1206,7 +1206,7 @@
       "c": "retired",
       "d": "won't retire"
     },
-    "answer": "d"
+    "answer": "b"
   },
   {
     "question": [
@@ -1219,7 +1219,7 @@
       "c": "will it",
       "d": "it will"
     },
-    "answer": "d"
+    "answer": "a"
   },
   {
     "question": [
@@ -1258,7 +1258,7 @@
       "c": "'ll",
       "d": "'d"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
     "question": [
@@ -1336,7 +1336,7 @@
       "c": "are make",
       "d": "was making"
     },
-    "answer": "b"
+    "answer": "a"
   },
   {
     "question": [
@@ -1440,7 +1440,7 @@
       "c": "wasn't",
       "d": "hasn't been"
     },
-    "answer": "d"
+    "answer": "a"
   },
   {
     "question": [
@@ -1497,7 +1497,7 @@
   {
     "question": [
       "He",
-      "to pass his driving test this time.  He's making too many mistakes. "
+      "to pass his driving test this time. He's making too many mistakes."
     ],
     "variants": {
       "a": "could",
@@ -1505,12 +1505,12 @@
       "c": "definitely won't",
       "d": "can't"
     },
-    "answer": "c"
+    "answer": "b"
   },
   {
     "question": [
-      "People ",
-      " smoke in public buildings. It is not allowed."
+      "People",
+      "smoke in public buildings. It is not allowed."
     ],
     "variants": {
       "a": "don't have to",
@@ -1518,7 +1518,7 @@
       "c": "shouldn't",
       "d": "mustn't"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
     "question": [
@@ -1622,7 +1622,7 @@
       "c": "aren't",
       "d": "don't"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
     "question": [
@@ -1661,7 +1661,7 @@
       "c": "unless",
       "d": "while"
     },
-    "answer": "d"
+    "answer": "a"
   },
   {
     "question": [
@@ -1674,7 +1674,7 @@
       "c": "would promise",
       "d": "promise"
     },
-    "answer": "b"
+    "answer": "d"
   },
   {
     "question": [
@@ -1731,7 +1731,7 @@
   {
     "question": [
       "He",
-      "swim by the time he was five but he hasn't learnt to dive yet."
+      "swim by the time he was five but he hasn't learn to dive yet."
     ],
     "variants": {
       "a": "can to",
@@ -1752,7 +1752,7 @@
       "c": "were able",
       "d": "could"
     },
-    "answer": "c"
+    "answer": "a"
   },
   {
     "question": [
@@ -1762,10 +1762,10 @@
     "variants": {
       "a": "an",
       "b": "the",
-      "c": "-",
+      "c": "_",
       "d": "a"
     },
-    "answer": "d"
+    "answer": "b"
   },
   {
     "question": [

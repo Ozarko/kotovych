@@ -1,3 +1,4 @@
+import { ActionButton } from "../../../components/ActionButton";
 import { QuestionItem, useTests } from "../../../context/useTests";
 import "./result.scss";
 
@@ -9,7 +10,7 @@ interface ResultType {
 }
 
 export const Result = () => {
-  const { questions, userAnswers, score} = useTests();
+  const { questions, userAnswers, handleResetClick } = useTests();
   const result = questions.reduce(
     (acc: ResultType[], testItem: QuestionItem, index: number) => {
       if (testItem.answer !== userAnswers[index]) {
@@ -29,8 +30,6 @@ export const Result = () => {
     },
     []
   );
-
-  const level = score > 80 ? "Advanced" : score > 60 ? "Intermediate" : "Beginner";
 
   return (
     <div className="result">
@@ -71,6 +70,11 @@ export const Result = () => {
         Thank you for taking the time to complete our test and we wish you
         success in your language learning journey.
       </p>
+      <div className="result-restart">
+        <div>
+          <ActionButton label="Restart" onClick={handleResetClick} />
+        </div>
+      </div>
     </div>
   );
 };
