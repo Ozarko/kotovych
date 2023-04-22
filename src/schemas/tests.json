@@ -1,0 +1,28 @@
+[
+  {
+    "question": [
+      "A book",
+      "by a twelve-year-old girl has won a Ђ10,000 prize."
+    ],
+    "variants": {
+      "a": "wrote",
+      "b": "writing",
+      "c": "been written",
+      "d": "written"
+    },
+    "answer": "d"
+  },
+  {
+    "question": [
+      "",
+      "people's names has always been something I've found incredibly difficult."
+    ],
+    "variants": {
+      "a": "To remember",
+      "b": "For remembering",
+      "c": "Remembering",
+      "d": "To remembering"
+    },
+    "answer": "c"
+  }
+]

@@ -1,4 +1,3 @@
-import React from "react";
 import { Form, FormDataArgs } from "../../../components/Form";
 import { useTranslation } from "../../../context/useTranslation";
 import { useTelegramBot } from "../../../hooks/useTelegramBot";
@@ -24,8 +23,7 @@ export const Contacts = () => {
       </div>
       <div className="contacts-social">
         <a href="https://www.facebook.com/">Telegram</a>
-        <a href="https://www.facebook.com/">Instagram</a>
-        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="mailto:ozarkonv@gmail.com">Email</a>
         <a href="https://www.facebook.com/">LinkedIn</a>
       </div>
       <div className="contacts-separator">
